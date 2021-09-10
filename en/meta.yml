@@ -6,6 +6,19 @@ listed: false
 copyedit: false
 last_tested: "2021-08-27"
 steps:
-  - title: Introduction
-  - title: Step title
-  - title: What next?
+- title: Introduction
+- title: Get the 3D files
+- title: Print each part
+- title: Remove the scaffolding
+- title: Parts checklist
+- title: Install the camera
+- title: Install the Raspberry Pi
+- title: Install stand offs for the Sense HAT
+- title: Install the push-buttons
+- title: Create the button wires
+- title: Connect wires to the button terminals
+- title: Connect the buttons to the Raspberry Pi
+- title: Install the Sense HAT
+- title: Assemble the case
+- title: Test the buttons
+- title: "Challenge: improve your case"
