@@ -29,5 +29,5 @@ Note that this joystick cap may need some slight adjustments due to the nozzle s
 
 * [Joystick](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Joystick.stl)
 
-
+--- /task ---
 
