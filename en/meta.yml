@@ -10,7 +10,6 @@ steps:
 - title: Get the 3D files
 - title: Print each part
 - title: Remove the scaffolding
-- title: Parts checklist
 - title: Install the camera
 - title: Install the Raspberry Pi
 - title: Install stand offs for the Sense HAT
