@@ -4,27 +4,47 @@ In order to keep the model structurally sound while printing, your 3D printer wi
 
 
 
-### Flight Unit Base
+### Flight Unit Front panel
+
+There are three main scaffolding areas to deal with. 
 
 --- task ---
 
-If you used a raft for the print, you may be able to remove the scaffolding on the heat sink using just your hands; this part may bend slightly, so don't be too rough while you are removing the unwanted material.
+Start with the area beneath the LED matrix window. You should be able to slide a craft knife or small screwdriver under the lip of the scaffold and peel it away
 
-![Peel off the heat sink scaffolding](images/peel-off-heatsink.png)
+![Photo showing the peeling off of the scaffolding from beneath the LED matrix window](images/front_with_scaffold.JPG)
 
 --- /task ---
 
+--- task ---
+
+The do the same thing with the region around the button holes. 
+
+![Photo showing the peeling off of the scaffolding from beneath the buttons](images/remove_button_scaffold.JPG)
+
+--- /task ---
+
+--- task ---
+
+Finally, tackle the scaffold pieces on the corners. You may need a pair of small pliers to get a strong enough grip, but then the scaffold should just snap off cleanly.  
+
+![Photo showing the gripping of the scaffolding from the corners using pliers](images/front_remove_corner_scaffold.JPG)
+
+![Close Photo showing the snapping off of the scaffolding from the corners using pliers](images/remove_corner_scaffold_close.JPG)
+
+--- /task ---
 
 ### Flight Unit Top
 
 --- task ---
+
 The base scaffolding should come away easily if you remove it it sections. Before you start, carefully use a craft knife or scalpel to split the sides of the fins away from the scaffold.  
 
 ![Photo of the blue 3D printed base part, showing a craft knife blade being used to separate the scaffolding from a heat sink fin](images/scaffold_knife.jpg)
 
 You can also use a narrow flat screwdriver as aa level to free the scaffold from the case itself. It should require little force and be careful not to snap off any of the fins.
 
-![Photo of the blue 3D printed base part, showing a screwdriver blade being used to lever the scaffolding from the edge](scaffold-screwdriver)
+![Photo of the blue 3D printed base part, showing a screwdriver blade being used to lever the scaffolding from the edge](images/scaffold-screwdriver)
 --- /task ---
 
 --- task ---
@@ -40,7 +60,6 @@ Once you find that sections of the scaffold have become severed from the rest an
 --- /task ---
 
 [Photo of the blue 3D printed base part with all but one section of the scaffolding removed](images/scaffold_sections.jpg)
-### HQC mount
 
 --- task ---
 Once again, carefully use a craft knife or scalpel to split the sides of the scaffold filling the recess for the HQC.
@@ -63,7 +82,7 @@ The scaffolding should come away easily if you peel it with your fingers.
 
 --- /task ---
 
-
+### HQC mount
 
 ## Do a fit check
 
