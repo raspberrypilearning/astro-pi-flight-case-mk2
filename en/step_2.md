@@ -5,22 +5,27 @@ The 3D files are in [STL](https://en.wikipedia.org/wiki/STL_%28file_format%29){:
 
 Download each of these files and save them to a folder on your computer:
 
-**Part 1 - Flight Unit Top**
+**Part 1 - Flight Unit front panel**
 
-* [Heat sink](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Heat_Sink.stl) 
+This is the standard case front panel, like the ones on the ISS. It has a square hole in the top right for the Kemet PIR sensor.
 
+* [Front panel - standard version](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Heat_Sink.stl) 
 
+And this is a modified version that has a slot for mounting the larger PIR that is supplied in the official Astro Pi Mission Space lab entrant kits.
+
+* [Front panel - Astro Pi kit version](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Heat_Sink.stl) 
+* 
 **Part 2 - Flight Unit Base**
 
-* [Base for Model B+ or Model 2](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Base_Pi1_or_2.stl) 
+* [Base](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Base_Pi1_or_2.stl) 
 
-**Part 3 - HQC mount**
+**Part 3 - HQC sensor mount**
 
-* [Middle](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Middle.stl) 
+* [HQC sensor mount](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Middle.stl) 
 
 **Part 4 - Light Sensor window**
 
-* [Lid 10mm](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Lid_10mm_Buttons.stl) 
+* [Light sensor window](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Lid_10mm_Buttons.stl) 
 
 **Part 5 - Joystick cap**
 

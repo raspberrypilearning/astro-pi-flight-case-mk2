@@ -16,11 +16,11 @@ We tried this project on a range of 3D printers including:
 
  We mainly used PLA filament in our prints, but we have also printed test cases using ABS.  There are many different 3D printer models so you should make any necessary adaptations to the instructions in order to get the best results from your particular machine.  
 
-All three parts will need to be printed with support scaffolding as there is no completely flat surface with any orientation. For most printers you won't need to add a raft although this may make it easier/quicker to remove the scaffolding from the heat sink fins on the Flight Unit base. It will, however increase the print time. 
+All three parts will need to be printed with support scaffolding as there is no completely flat surface with any orientation. For most printers you don't need to add a raft although this may make it much easier/quicker to remove the scaffolding from the heat sink fins on the Flight Unit base. It will, however increase the print time. 
 
 --- task ---
 
-The STL files have been generated from the original CAD designs  used to make the Mark II aluminium Flight Unit cases on the International Space Station. 
+The STL files have been generated from the original CAD designs used to make the Mark II aluminium Flight Unit cases on the International Space Station. 
 
 Depending on your printer and how you use it, you may be able to load these files into a software application that can directly control the hardware and will mange the entire process for you.
 
@@ -30,7 +30,7 @@ Or if you use a web interface or other client software such as [Octoprint](https
 
 ![Screenshot showing an example of the Cura slicing software with a front part standing upright ](images/cura_upright.png)
 
-Make sure you adjust the orientation of the parts in the virtual printer bed so that they are laying flat as shown below. 
+Make sure you adjust the orientation of the parts in the virtual printer bed so that they are laying flat as shown below. This will minimise scaffolding and rafting.
 
 ![Screenshot showing an example of the Cura slicing software with a front part laying flat and face down ](images/cura_top_flat.png)
 
@@ -46,19 +46,6 @@ In order to get a nice finish we recommend you print on a high detail setting; t
 
 Having said that, our test cases were also printed using the default "medium quality" settings for the printers and they look fine. 
 
-The STL files may not have the models in the right orientation by default, so please make sure you print in the orientations shown below in order to minimise scaffolding and any rafting.
 
 --- /task ---
 
-
-### Flight Unit Base
-
-![Anti warp base raw print](images/base-antiwarp.png)
-
-### Flight Unit Top
-
-![Anti warp middle raw print](images/middle-antiwarp.png)
-
-### HQC mount
-
-![Anti warp lid raw print](images/lid-antiwarp.png)

@@ -6,11 +6,6 @@ When you're happy with the 3D-printed parts, you can proceed to the hardware ins
 Firstly lift the two tabs on either side of the High Quality Camera to re-connect the ribbon cable from the camera.
 --- /task ---
 
---- task ---
-
-Now, remove the tripod mount form the HQC sensor.
-
---- /task ---
 
 --- task ---
 
@@ -69,13 +64,18 @@ Then fold the ribbon and lay flat along the inside of the base part. Secure it w
 ![Photo showing the correct orientation of the camera cable](images/camera_cable_tape.JPG)
 --- /task ---
 
+--- task ---
+Slot the camera mount into place. It will be a tight fit, so make sure that any excess skaffolding has been removed from the part itself and the cavity in the larger case part into which it sits. 
 
-+ Reconnect the **Cam** end of the ribbon cable to the Camera Module. Make sure that the tin connectors are facing the front and the blue tab is on the back.
+![Photo showing the correct orientation of the camera cable](images/camera_cable_tape.JPG)
+--- /task ---
+
+--- task ---
+
+Use XX screws and nuts to secure the camera mount to the base. The nuts should be on the inside of the case. 
+
+![Photo showing the correct orientation of the camera cable](images/camera_cable_tape.JPG)
+--- /task ---
 
 
-
-+ When you're happy, use the small black M2 cross-head screws to install the Camera Module. The screws will cut their own thread in the support pillar pilot holes, but after a few turns you'll probably need a small screwdriver to continue.
-
-![Screw in the camera](images/screw-in-camera.png)
-
-Stop turning as soon as the head of the screw touches the Camera Module; if you tighten the screw too much, it can cause the support pillar to split horizontally along the grain of the print. Furthermore, try to avoid removing and re-threading the screws, as doing so will cut a new thread and, if done repeatedly, will erode the inside of the support pillar so that the screws will not hold.
+ Furthermore, try to avoid removing and re-threading the screws, as doing so will cut a new thread and, if done repeatedly, will erode the inside of the support pillar so that the screws will not hold.
