@@ -1,6 +1,6 @@
 ## Create the button wires
 
-Firstly, you need to prepare the button wires to be able to attach them to the buttons. In the real flight unit, we soldered the button wires on to make them more reliable — in the kit you will find jumper wires which will do the same job. The colour of the wires is not important, as they are all exactly the same inside.
+Firstly, you need to prepare the button wires to be able to attach them to the buttons. In the real flight unit, we soldered the button wires on to make them more reliable. This is the most straightforard method, but you could also use connectors if you desire a less-permenant solution.    The colour of the wires is not important, as they are all exactly the same inside.
 
 + Take a coloured wire and, without cutting it, remove the black plastic sheath from **one** end. You can do this by pulling it off with wire cutters, or by pulling up the small tab and removing it by hand. This exposes a pin connector.
 
