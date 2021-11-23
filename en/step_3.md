@@ -13,6 +13,7 @@ We tried this project on a range of 3D printers including:
  [Lulzbot Taz 6](https://www.lulzbot.com/store/printers/lulzbot-taz-6)
  [Lulzbot Mini](https://www.lulzbot.com/store/printers/lulzbot-mini)
 
+![Photo showing a 3d printed Flight Unit top panel sitting on the bed of a Lulzbot Mini printer ](images/lulbotmini.JPG)
 
  We mainly used PLA filament in our prints, but we have also printed test cases using ABS.  There are many different 3D printer models so you should make any necessary adaptations to the instructions in order to get the best results from your particular machine.  
 

@@ -12,12 +12,8 @@ steps:
 - title: Remove the scaffolding
 - title: Install the camera
 - title: Install the Raspberry Pi
-- title: Install stand offs for the Sense HAT
-- title: Install the push-buttons
-- title: Create the button wires
-- title: Connect wires to the button terminals
-- title: Connect the buttons to the Raspberry Pi
-- title: Install the Sense HAT
+- title: Soldering and installing the push-buttons
+- title: Connect internal wiring to the Raspberry Pi
 - title: Assemble the case
-- title: Test the buttons
+- title: Test the hardware
 - title: "Challenge: improve your case"

@@ -4,8 +4,6 @@ The Astro Pi Flight Unit is one of the most sought-after cases in the history of
 
 In this resource, you will learn how to 3D print your own Astro Pi Mark II Flight Unit case and install the Astro Pi hardware inside it. You’ll then have your very own Astro Pi flight unit, identical in almost every way to the new ones which will soon be operational on the International Space Station right.
 
-
-
 ### What you will make
 
 --- no-print ---
@@ -32,11 +30,12 @@ title: What you will need
 + 2 push buttons
 + 4 Jumper wires, one end needs to be male.
 + Kemet PIR
-+ fastenings
++ Standaoffs: M2.5 x 11mm 
++ Standaoffs: M2.5 x 10mm 
 + fastenings
 + fastenings
 
-If you want to buy the exact buttons used in the Astro Pi flight unit, the details are below. At a price of £10 each, they are expensive — that's because they're designed to survive an enormous number of clicks before wearing out, a feature which is necessary for a five-year space mission.
+If you want to buy the exact buttons used in the Astro Pi flight unit, the details are below. At a price of £11 each, they are expensive — that's because they're designed to survive an enormous number of clicks before wearing out, a feature which is necessary for a five-year space mission.
 
 ![Astro Pi actual button](images/apem.jpg)
 

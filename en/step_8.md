@@ -1,19 +1,30 @@
-## Install the push-buttons
+## Connect the buttons to the Raspberry Pi
 
-This section assumes you are using the buttons from the Astro Pi [components kit](http://cpc.farnell.com/ucreate/uc-apk-comp1/astro-pi-component-kit-budget/dp/SC14158){:target="_blank"} from CPC. If you are using APEM buttons or another type of button, their installation might be different.
++ Fit the middle section of the Astro Pi case onto the base. You should do this now, because the GPIO wires will prevent it from being fitted later.
 
-+ Take a button, then unscrew and remove the nut. Sometimes the nut will get stuck on the button cap, but it should come off if you wiggle it.
+Now you are going to wire the buttons to the free GPIO pins at the bottom of the header.
 
-![Remove nut from button](images/buttons1.png)
++ Turn the Astro Pi case so that the Ethernet and USB ports are at the bottom, and the GPIO pins are on the right of the Raspberry Pi.
 
-+ Keeping the washer on the thread, insert the button from the underside of the lid.
+![GPIO diagram](images/buttons_GPIO.png)
 
-+ Then on the top side of the lid, put the nut back on and tighten it with your fingers. Check that the connectors are aligned horizontally on the underside before tightening fully.
+The pins marked in red are where you will wire up the buttons, with the bottom of the diagram being the pins closest to the USB ports.
 
-![Insert button and screw on nut](images/buttons2.png)
++ Look at the **underside** of the lid, with the buttons on the left and the display hole on the right. Connect the coloured wire from each button to the corresponding pin below:
 
-+ Do the same for the remaining buttons; when you are done it should look like this:
+- Top four buttons
+    - Top: **GPIO 26**
+    - Bottom: **GPIO 13**
+    - Left: **GPIO 19**
+    - Right: **GPIO 20**
+- Bottom pair of buttons
+    - Left: **GPIO 21**
+    - Right: **GPIO 16**
 
-![Finished front and back](images/buttons3.png)
++ Finally, connect the ground wire to either pin 34 or 39 (labelled **Ground** on the GPIO diagram).
 
-If you are using the lid with the pilot holes, then you'll need to check the datasheet for your chosen button type to find the **threaded bushing diameter**. Then you can select a drill bit with this diameter, plus 1mm for clearance, and proceed to drill all six holes. We recommend using a vice or a G clamp to hold the lid in place while you drill. You can then install the buttons in accordance with their requirements.
+The lid will now be a bit awkward until we finish, but try to position it gently so it is not in the way.
+
+The picture below shows one of the flight units that went into space. On the right, you can see the base of the RTC board with the connector pins for the buttons. If you look at the button contacts on the left, you'll see we used only one black ground wire going from button to button.
+
+![Flight unit wiring](images/flight_unit_wiring.jpg)
