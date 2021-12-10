@@ -1,4 +1,4 @@
-## Test the buttons
+## Test the hardware
 
 + Once you have assembled the Astro Pi, start it up with a monitor, keyboard, and mouse connected.
 

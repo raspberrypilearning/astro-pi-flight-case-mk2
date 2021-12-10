@@ -7,7 +7,7 @@ We have created two different front panel options to accomodate two popular size
 
 Firstly, you need to prepare the button wires to be able to attach them to the buttons. In the real flight unit, we soldered the button wires on to make them more reliable. This is the most straightforard method, but you could also use connectors if you desire a less-permenant solution.    The colour of the wires is not important, as they are all exactly the same inside.
 
-[Photo showing the componets used in this step. Wires, buttons and heatshrink tubing](images/button_kit.JPG)
+![Photo showing the componets used in this step. Wires, buttons and heatshrink tubing](images/button_kit.JPG)
 
 --- task ---
 
@@ -29,7 +29,7 @@ The APEM buttons have 3 terminals. You're going to only connect wires to 2 of th
 
 Twist the exposed copper wires so that all the individual strands are tightly entwined. Then thread the end through a small (1cm long) piece of heatshrink tubing. 
 
-![Photo showing a partially stripped wirev with with a 1cm piece of red heatshrink tubing slipped over it ](images/button_wire_hs_slip.JPG)
+![Photo showing a partially stripped wire with with a 1cm piece of red heatshrink tubing slipped over it ](images/button_wire_hs_slip.JPG)
 
 --- /task ---
 
@@ -41,7 +41,7 @@ Thread a wire through one of the correct terminals (see above) and loop it over 
 
 Before the solder cools and hardens, pull the wire gently upwards so that it is pointing straight up. This will make is much eaisre to slide the heatshrink tubing down.
 
-![Photo showing a wire soldered to one terminal of a button ](images/button_solder2.JPG)
+![Photo showing a wire soldered to one terminal of a button ](images/buttons_solder2.JPG)
 
 --- /task ---
 
@@ -68,17 +68,17 @@ Now repeat these steps for the second button
 Use a heatgun to soften and shrink the heatshrink tubing. 
 
 
-![Photo showing both wires soldered and the termninal and exposed copper sheathed in heatshrink tubing  ](images/button_2_wires_hs.JPG)
+![Photo showing both wires soldered and the termninal and exposed copper sheathed in heatshrink tubing  ](images/buttons_2_wires_hs.JPG)
 
 --- /task ---
 
 If you are using different buttons, the process should be the same, although you will possibly have only two terminals on the button. 
 
-![Photo showing a smaller button with a wires soldered to its terminal ](images/button_small_solder.JPG)
+![Photo showing a smaller button with a wires soldered to its terminal ](images/buttons_small_solder.JPG)
 
 Use heatshrink tubing to protect the contacts in the same way.
 
-![Photo showing a small button with one wire soldered and the termninal and exposed copper sheathed in heatshrink tubing  ](images/button_small_1_wire_hs.JPG)
+![Photo showing a small button with one wire soldered and the termninal and exposed copper sheathed in heatshrink tubing  ](images/buttons_small_1_wire_hs.JPG)
 
 + Take a button, then unscrew and remove the nut. Sometimes the nut will get stuck on the button cap, but it should come off if you wiggle it.
 
