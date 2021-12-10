@@ -13,7 +13,7 @@ We tried this project on a range of 3D printers including:
  [Lulzbot Taz 6](https://www.lulzbot.com/store/printers/lulzbot-taz-6)
  [Lulzbot Mini](https://www.lulzbot.com/store/printers/lulzbot-mini)
 
-![Photo showing a 3d printed Flight Unit top panel sitting on the bed of a Lulzbot Mini printer ](images/lulbotmini.JPG)
+![Photo showing a 3d printed Flight Unit top panel sitting on the bed of a Lulzbot Mini printer ](images/lulzbitmini.JPG)
 
  We mainly used PLA filament in our prints, but we have also printed test cases using ABS.  There are many different 3D printer models so you should make any necessary adaptations to the instructions in order to get the best results from your particular machine.  
 
@@ -23,22 +23,17 @@ All three parts will need to be printed with support scaffolding as there is no 
 
 The STL files have been generated from the original CAD designs used to make the Mark II aluminium Flight Unit cases on the International Space Station. 
 
-Depending on your printer and how you use it, you may be able to load these files into a software application that can directly control the hardware and will mange the entire process for you.
+Depending on your printer and how you use it, you may be able to load these files into a software application that can directly control the hardware and will mange the entire process for you. In the image below, you can see the STL file for the camera mount loaded directly into the Cel Robox application.
 
 ![Screenshot from Cel Robox printer showing the imported Flight Unit base on the virtual printer bed](images/automaker.png)
 
-Or if you use a web interface or other client software such as [Octoprint](https://octoprint.org/) to control a [FDM/FFF printer](https://en.wikipedia.org/wiki/Fused_filament_fabrication#Fused_deposition_modeling), you may need to use separate slicing software like [Cura](https://github.com/Ultimaker/Cura) which will convert the model into a series of thin layers to produce a G-code file containing instructions. 
+Or if you use a web interface or other client software such as [Octoprint](https://octoprint.org/) to control a [FDM/FFF printer](https://en.wikipedia.org/wiki/Fused_filament_fabrication#Fused_deposition_modeling), you may need to use separate slicing software like [Cura](https://github.com/Ultimaker/Cura) which will convert the model into a series of thin layers to produce a G-code file containing instructions. The image below is from the popular Cura slicing application.
 
 ![Screenshot showing an example of the Cura slicing software with a front part standing upright ](images/cura_upright.png)
 
-Make sure you adjust the orientation of the parts in the virtual printer bed so that they are laying flat as shown below. This will minimise scaffolding and rafting.
+--- /task ---
 
-![Screenshot showing an example of the Cura slicing software with a front part laying flat and face down ](images/cura_top_flat.png)
-
-![Screenshot showing an example of the Cura slicing software with a base part laying flat and face down ](images/cura_base_flat.png)
-
-![Screenshot showing an example of the Cura slicing software with the camera mount part laying flat and face down ](images/cura_camera.png)
-
+--- task ---
 This G-code file can then be printed via the client software, which will load the G-code and use it to instruct the printer during the 3D printing process.
 
 ![Screenshot showing an example of the Octoprint web-interface which is displaying the imported Flight Unit base in the gcode viewer](images/octoprint.png)
@@ -50,3 +45,21 @@ Having said that, our test cases were also printed using the default "medium qua
 
 --- /task ---
 
+--- task ---
+
+Whether you're using an application that can work directly from the STL file, or creating a G-code file using slicing software, you should make sure you adjust the orientation of the parts in the virtual printer bed so that they are laying flat as shown below. This will minimise scaffolding and rafting.
+
+![Screenshot showing an example of the Cura slicing software with a front part laying flat and face down ](images/cura_top_flat.png)
+
+![Screenshot showing an example of the Cura slicing software with a base part laying flat and face down ](images/cura_base_flat.png)
+
+![Screenshot showing an example of the Cura slicing software with the camera mount part laying flat and face down ](images/cura_camera.png)
+
+--- /task ---
+
+
+--- task ---
+
+Once you've checked all the various options, start your print job. Remember that some of the parts may take several hours to complete and use a fair ammount of material. So make sure you have enough tioe and fimament available.
+
+--- /task ---

@@ -38,7 +38,6 @@ You can now insert the camera ribbon cable into the CSI port of the Raspberry Pi
 ![Photo showing the Raspberry Pi in the bottom case part, with the camera cable inserted](images/camera_cable_pi.jpg)
 
 
-
 --- /task ---
 
 ### Install the tall header
@@ -47,11 +46,15 @@ You can now insert the camera ribbon cable into the CSI port of the Raspberry Pi
 
 Bend a pin which is the second from the end of the 23-pin tall header out by 90 degrees as shown below. This will enable you to connect the PIR to 5v. 
 
+![Photo showing the tall header with a pin bent at 90 degrees](images/hedaer_bent_pin.jpg)
 --- /task ---
 
 --- task ---
 
 Add the extended 23-pin header to the Raspberry Pi GPIO pins, at the end away from the USB ports. The bent pin should be at the end furthest away from the USB ports, facing outwards into the case. 
+
+![Photo showing the tall header with a pin bent at 90 degrees attached to the Raspberry Pi](images/header_in_pi.jpg)
+
 
 --- /task ---
 
@@ -62,6 +65,6 @@ The Astro Pi Flight Units onboard the ISS have another custom circuit board in b
 ![3d cutaway diagram of a Flight Unit, showing the mezzanine board](images/3d_cutaway_mezz.png)
 
 
-Then, take an 8mm M2.5 stand-off and put a hex nut onto its thread before screwing it into the hole of the 11mm stand-off, as shown below. Do the same for the remaining three stand-offs.
+Then, take a 10mm M2.5 stand-off and screw it into the hole of the 11mm stand-off, to make a single tall header as shown below. Do the same for the remaining three stand-offs.
 
 ![Add standoffs](images/add-header-standoffs.png)

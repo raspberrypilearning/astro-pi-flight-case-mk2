@@ -9,11 +9,23 @@ Download each of these files and save them to a folder on your computer:
 
 This is the standard case front panel, like the ones on the ISS. It has a square hole in the top right for the Kemet PIR sensor.
 
+Version 1 :  XX mm button holes, for use with the buttons used on the ISS Flight Units:
+
 * [Front panel - standard version](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Heat_Sink.stl) 
 
+Version 2 :  XX mm button holes:
+
+* [Front panel - standard version](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Heat_Sink.stl) 
+* 
 And this is a modified version that has a slot for mounting the larger PIR that is supplied in the official Astro Pi Mission Space lab entrant kits.
 
-* [Front panel - Astro Pi kit version](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Heat_Sink.stl) 
+Version 1 :  XX mm button holes, for use with the buttons used on the ISS Flight Units:
+
+* [Front panel - standard version](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Heat_Sink.stl) 
+
+Version 2 :  XX mm button holes:
+
+* [Front panel - standard version](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Heat_Sink.stl) 
 * 
 **Part 2 - Flight Unit Base**
 
