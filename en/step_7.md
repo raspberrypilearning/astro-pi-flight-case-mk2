@@ -3,7 +3,7 @@
 We have created two different front panel options to accomodate two popular sizes of buttons. Most of the photos show the shiny APEM SPDT Momentary Push Buttons as used on the ISS Flight Units. However you can use any similar button as long as it has the correct thread for the version of the flight case that you have printed. You may need to adapt the tasks in this section to refelct the buttons you have chosen.
 
 
-## Solder the button wires
+### Solder the button wires
 
 Firstly, you need to prepare the button wires to be able to attach them to the buttons. In the real flight unit, we soldered the button wires on to make them more reliable. This is the most straightforard method, but you could also use connectors if you desire a less-permenant solution.    The colour of the wires is not important, as they are all exactly the same inside.
 
@@ -72,6 +72,8 @@ Use a heatgun to soften and shrink the heatshrink tubing.
 
 --- /task ---
 
+--- task ---
+
 If you are using different buttons, the process should be the same, although you will possibly have only two terminals on the button. 
 
 ![Photo showing a smaller button with a wires soldered to its terminal ](images/buttons_small_solder.JPG)
@@ -80,16 +82,41 @@ Use heatshrink tubing to protect the contacts in the same way.
 
 ![Photo showing a small button with one wire soldered and the termninal and exposed copper sheathed in heatshrink tubing  ](images/buttons_small_1_wire_hs.JPG)
 
-+ Take a button, then unscrew and remove the nut. Sometimes the nut will get stuck on the button cap, but it should come off if you wiggle it.
+--- /task ---
 
-![Remove nut from button](images/buttons1.png)
+### Install the buttons into the front panel
 
-+ Keeping the washer on the thread, insert the button from the underside of the lid.
+Most buttons suitable of the Flight Unit will have a locking nut that holds them in place. 
 
-+ Then on the top side of the lid, put the nut back on and tighten it with your fingers. Check that the connectors are aligned horizontally on the underside before tightening fully.
+The description below is for the APEM buttons so should be similar for most other compatible choices. The APEM buttons came with 4 different fastenings.
 
-![Insert button and screw on nut](images/buttons2.png)
 
-+ Do the same for the remaining buttons; when you are done it should look like this:
+--- task ---
 
-![Finished front and back](images/buttons3.png)
+Take a button, then unscrew and remove all the nuts and washers. The picture below shows the fastenings next to numbers which will be used to identify each one in the stesp below. 
+
+![Photo showing the fastenings for the APEM buuton, numbers 1 to 4 ](images/button_fastenings.jpg)
+
+--- /task ---
+
+--- task ---
+
+Then put the locking clip (3) back on first, followed by the hexagonal locking nut (1). You can discard the gripping ring (4)
+
+![Photo showing an APEM button with both internal fastenings screwed on](images/button_2_fastenings.jpg)
+
+--- /task ---
+
+--- task ---
+
+Slide the button through the hole in the front panel. Secure it with the circular locking ring (2). 
+
+![Photo showing an APEM button attached to the Flight Case front panel](images/button_in_case.jpg)
+
+
+--- /task ---
+
+--- task ---
+
+Repeat the stesp above with the second button. 
+--- /task ---
