@@ -2,21 +2,27 @@
 
 In order to keep the model structurally sound while printing, your 3D printer will create what's called scaffolding and rafting to prevent the hot thermoplastics from bending or sagging. Leave the print to cool right down to room temperature before you touch it.
 
-
-
 ### Flight Unit Front panel
 
 
 If you've printed this part with a raft, you should be able to seperate the raft from the base and carefully peel it away so that it also takes the scafolding with it. 
 
+--- task ---
+
 Start by freeing the scaffolding at the corners using a small pair of pliers.
 
 ![Photo of the silver 3D printed front panel, showing pliers being used to separate the corner scaffolding](images/raft_corner_seperate_pliers.jpg)
 
+--- /task ---
+
+--- task ---
 Then use your fingers to prise the raft from the base. You may need to carefully slip a craft knife blade into the gap to get things started. 
 
 ![Photo of the silver 3D printed front panel, showing the separation of the raft from the corner scaffolding](images/raft_fingers.jpg)
- 
+
+--- /task ---
+
+--- task ---
 Begin to peel back the raft, checking that the scaffolding is being removed with it.
 
 ![Photo of the silver 3D printed front panel, showing the raft being peeled away.](images/raft_peel.jpg)
@@ -25,9 +31,15 @@ Continue slowly peeling the raft away.
 
 ![Photo of the silver 3D printed front panel, showing the raft having been completely removed.](images/raft_away.jpg)
 
+--- /task ---
+
+
+
+If you didn't use a raft for you print, there are three main scaffolding areas to deal with. 
+
 --- task ---
 
-If you didn't use a raft for you print, there are three main scaffolding areas to deal with. Start with the area beneath the LED matrix window. You should be able to slide a craft knife or small screwdriver under the lip of the scaffold and peel it away
+Start with the area beneath the LED matrix window. You should be able to slide a craft knife or small screwdriver under the lip of the scaffold and peel it away
 
 ![Photo showing the peeling off of the scaffolding from beneath the LED matrix window](images/front_with_scaffold.JPG)
 
@@ -54,9 +66,6 @@ Finally, tackle the scaffold pieces on the corners. You may need a pair of small
 ### Flight Unit Base
 
 --- task ---
-
-
-
 
 The base scaffolding should come away easily if you remove it it sections. Before you start, carefully use a craft knife or scalpel to split the sides of the fins away from the scaffold.  
 
@@ -103,6 +112,16 @@ The scaffolding should come away easily if you peel it with your fingers.
 --- /task ---
 
 ### HQC mount
+
+--- task ---
+
+![A photo showing a grey printed HQC mount on a raft](images/HQC_printed_raft.JPG)
+
+If you used a raft, the scaffolding should come away easily if you peel off the raft with your fingers. 
+
+![A photo showing a fingers peeling off the blue 3D printed camera recess scaffolding](images/HQC_raft_peel.JPG)
+
+--- /task ---
 
 ## Do a fit check
 

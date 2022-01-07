@@ -65,6 +65,3 @@ The Astro Pi Flight Units onboard the ISS have another custom circuit board in b
 ![3d cutaway diagram of a Flight Unit, showing the mezzanine board](images/3d_cutaway_mezz.png)
 
 
-Then, take a 10mm M2.5 stand-off and screw it into the hole of the 11mm stand-off, to make a single tall header as shown below. Do the same for the remaining three stand-offs.
-
-![Add standoffs](images/add-header-standoffs.png)

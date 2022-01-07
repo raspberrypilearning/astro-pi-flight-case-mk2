@@ -6,7 +6,6 @@ When you're happy with the 3D-printed parts, you can proceed to the hardware ins
 Firstly lift the two tabs on either side of the High Quality Camera to re-connect the ribbon cable from the camera.
 --- /task ---
 
-
 --- task ---
 
 Firstly, remove the tripod mount form the HQC sensor by unscrewing the two bolts that attach it. You'll need a 1.5 mm allen key for this task. 
@@ -63,7 +62,7 @@ Slip the cable through the slit in the base. Make sure you have the correct orie
 --- /task ---
 
 --- task ---
-Slot the mount into position in the recess in the underside of the base part.  
+Slot the camera mount into place. It will be a tight fit, so make sure that any excess skaffolding has been removed from the part itself and the cavity in the larger case part into which it sits.
 
 ![Photo showing the correct orientation of the camera cable](images/camera_mount_in.jpg)
 --- /task ---
@@ -74,11 +73,6 @@ Then fold the ribbon and lay flat along the inside of the base part. Secure it w
 ![Photo showing the correct orientation of the camera cable](images/camera_cable_tape.JPG)
 --- /task ---
 
---- task ---
-Slot the camera mount into place. It will be a tight fit, so make sure that any excess skaffolding has been removed from the part itself and the cavity in the larger case part into which it sits. 
-
-![Photo showing the correct orientation of the camera cable](images/camera_cable_tape.jpg)
---- /task ---
 
 --- task ---
 

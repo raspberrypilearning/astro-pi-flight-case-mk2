@@ -1,19 +1,112 @@
-## Assemble the case
+## Connect internal wiring to the Raspberry Pi
 
-Once you're happy that the internals of the case are complete, you can proceed to the final assembly stage.
+As previously mentioned, the ISS Astro Pis have an additional PCB to provide connection points for the buttons and PIR. As this custom board is not available commercially, you will need a different approach.
 
-+ Take the lid and gently tuck the wires into the space on the right of the Pi as neatly as you can.
+Fortunatley the Raspberry Pi Sense HAT only uses GPIO pins from the first 24 on the header. This allows us to use a 26 pin header extneder to mount the Sense HAT, leaving tyhe remaining 16 pins free.
 
-+ Place the lid on top of the case and align the heat sink on the bottom.
+However, we still need a 3v3 pin for the PIR. Only pin number 1 is actually used by the Sense HAT, so we can use pin number 17.
 
-+ Take the black M4 threaded bolts, and insert one through each of the holes in the corners of the case. Inserting all four bolts at this stage will help to line everything up and make it easier to secure the case with the nuts.
+--- task ---
 
-+ Take one of the large hex nuts and use your index finger to place it against the bottom of the bolt. Push the bolt back up so that the nut is flush with the bottom of the case, and turn the head of the nut with your finger and thumb so that it catches the bolt thread. Tighten the nut with your fingers only.
+Take the 26 pin tall header and carefully use radio pliers to bend the 9th pin on onse side through 90 degrees. 
 
-![Hold the bolt](images/hold-bolt.png)
+![Photo of the tall header with a bent pin](images/header_bent_pin.jpg)
 
-+ Once all four nuts are in place, you can do a final round of tightening with a screwdriver.
+--- /task ---
 
-+ Your Astro Pi is almost complete — the last thing to do is install your 3D-printed joystick cap by pressing it onto the joystick. For this, the real flight units use a TrackPoint cap from a Lenovo ThinkPad laptop!
+--- task ---
 
-![Install joystick](images/install-joystick.png)
+Place the top and bottom halves of the Flight Case side by side and connect the button wires to the GPIO pins. One button from each wire should  go to a Ground pin, the other to a numbered GPIO pin. You can use whichever combination you like, but we recommend:
+
+| Wire  |  GPIO pin | Physical pin number
+|---|---|---|
+| Button A  |  20 | 38 |
+| Button A  |   | 34 |
+| Button B  |  21 | 40 |
+| Button B  |   | 30|
+
+![GPIO diagram](images/buttons_GPIO.png)
+
+![Photo of two case halves with button wires connected (KEMET PIR)](images/two_cases.jpg)
+
+![Photo of two case halves with button wires connected (Parallax PIR)](images/two_cases_p.jpg)
+
+--- /task ---
+
+--- task ---
+Do the same thing with the Ground and signal wires from the PIR.
+
+| Wire  |  GPIO pin | Physical pin number
+|---|---|---|
+| Ground |   | 39 |
+| Signal/Out | 26  | 37 |
+
+
+![Photo of two case halves with button and two PIR wires connected (KEMET PIR)](images/two_cases_all.jpg)
+
+![Photo of two case halves with button wires connected (Parallax PIR)](images/two_cases_all_p.jpg)
+
+--- /task ---
+
+
+## Install the Sense HAT
+
+--- task ---
+
+Remove the GPIO connector that comes with the Sense HAT. You can wiggle it from side to side, and it will come off without too much force.
+
+![Remove the header from the Sense HAT](images/remove-sense-hat-header.png)
+
+--- /task ---
+
+--- task ---
+Insert the header into the Sense HAT, through physical pins 1-26 as shown. Make sure the bent pin is facing inwards, underneath the PCB.
+
+![Photo of a Sense HAT with the 26 pin tall header inserted](images/sh_header1.jpg)  
+
+Note that the header pins should not protrude through the top of the Sense HAT. If they do, then the height is not correct.
+
+![Photo of a Sense HAT with the 26 pin tall header inserted](images/sh_header2.jpg)
+
+--- /task ---
+
+--- task ---
+
+Connect the remaining 3v3 wire from the PIR to the bent pin on the header.
+
+![Photo of a Sense HAT with the PIR wire connected to the bent pin](images/sh_waiting.jpg)
+
+--- /task ---
+
+--- task ---
+
+Seat the Sense HAT onto the Raspberry pi, Making sure the orientation is ashown below. Be careful to align both rows of pins with both rows of holes in the header.
+
+![Photo of a Sense HAT seated on the Raspberry Pi](images/sh_seated.jpg)
+![Photo of a Sense HAT seated on the Raspberry Pi](images/sh_seated_p.jpg)
+
+--- /task ---
+
+--- task ---
+
+Fix the Sense HAT in place with four M2.5 x 6mm screws.
+
+![Photo of a Sense HAT seated on the Raspberry Pi with screws](images/sh_screws.jpg)
+
+--- /task ---
+
+--- task ---
+
+To check that the Sense HAT is connected correctly, at this stage it is a good idea to insert a bootable SD card into the Raspberry Pi and connect the USB-C power cable.
+
+You should see the Sense HAT display a rainbow pattern for a few seconds. NOTE: if you are using an original Sense HAT, there will be a bright white falsh from the LEDs when power is first applied. 
+
+![Photo of a Sense HAT displaying the rainbow pattern](images/sh_rainbow.jpg)
+
+If the rainbow pattern does not disappear once the Raspberry Pi has finished booting, add the following line to the /boot/config.txt file and then reboot.
+
+dtoverlay=rpi-sense
+
+--- /task ---
+
+

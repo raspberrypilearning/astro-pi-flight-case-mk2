@@ -13,6 +13,7 @@ steps:
 - title: Install the camera
 - title: Install the Raspberry Pi
 - title: Soldering and installing the push-buttons
+- title: Install the PIR sensor
 - title: Connect internal wiring to the Raspberry Pi
 - title: Assemble the case
 - title: Test the hardware

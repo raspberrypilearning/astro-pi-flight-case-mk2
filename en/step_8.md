@@ -1,46 +1,97 @@
-## Connect internal wiring to the Raspberry Pi
+## Install the PIR sensor
 
-+ Fit the middle section of the Astro Pi case onto the base. You should do this now, because the GPIO wires will prevent it from being fitted later.
+There are two different steps to follow here, depending on which PIR you are using. You should have printed the correct Flight Case front panel to go with your choice of PIR.
 
-Now you are going to wire the buttons to the free GPIO pins at the bottom of the header.
+### Option 1: Kemet PIR sensor
 
-+ Turn the Astro Pi case so that the Ethernet and USB ports are at the bottom, and the GPIO pins are on the right of the Raspberry Pi.
+This is the small, square PIR used on the ISS Astro Pis. It requires a specific matching cable which needs to be modified to allow connection to the Raspberry Pi's GPIO pins. 
 
-![GPIO diagram](images/buttons_GPIO.png)
+The sensor has an unusual 5-pin JST-type connector and requires a matcging cable. Unfortunately there is no easy way to use this connector directly with the Raspberry Pi GPIO pins. The Flight Units on the ISS have dedicated header pins on the mezzanine board to enable this connection. This cable has 5 individual strands of wire. 
 
-The pins marked in red are where you will wire up the buttons, with the bottom of the diagram being the pins closest to the USB ports.
+![Photo showing the KEMET PIR and cable](images/PIR_cable.jpg)
 
-+ Look at the **underside** of the lid, with the buttons on the left and the display hole on the right. Connect the coloured wire from each button to the corresponding pin below:
 
-- Top four buttons
-    - Top: **GPIO 26**
-    - Bottom: **GPIO 13**
-    - Left: **GPIO 19**
-    - Right: **GPIO 20**
-- Bottom pair of buttons
-    - Left: **GPIO 21**
-    - Right: **GPIO 16**
+One option is to remove the connecor for one end of the cable and solder the bare wire to another wire with a the female dupont connector at the other end. However the PIR cable's individual wires are very fine and this is not an easy teask, and damage to the expensive cable is likely. A less risky method is described below.
 
-+ Finally, connect the ground wire to either pin 34 or 39 (labelled **Ground** on the GPIO diagram).
+--- task ---
 
-The lid will now be a bit awkward until we finish, but try to position it gently so it is not in the way.
+Cut the connecter off of one end of the PIR cable.
 
-The picture below shows one of the flight units that went into space. On the right, you can see the base of the RTC board with the connector pins for the buttons. If you look at the button contacts on the left, you'll see we used only one black ground wire going from button to button.
+--- /task ---
 
-![Flight unit wiring](images/flight_unit_wiring.jpg)
+--- task ---
 
-Then, take a 10mm M2.5 stand-off and screw it into the hole of the 11mm stand-off, to make a single tall header as shown below. Do the same for the remaining three stand-offs.
+Only 3 of the individual wire strabds are needed, so snip off the two redundent ones. Make sure you have the oriented correctly the PIR and that you only snip the strands that are not needed. 
 
-![Add standoffs](images/add-header-standoffs.png)
+![Labelled photo indicating that the 2nd and 3rd wires from the left, when looking at the back of the PIR PCB, should be cut](images/PIR_wires_snip_labels.jpg)
 
-## Install the Sense HAT
+--- /task ---
 
-+ Remove the GPIO connector that comes with the Sense HAT. You can wiggle it from side to side, and it will come off without too much force.
+--- task ---
 
-+ The Sense HAT can then be attached onto the extended header. Note that the header pins should not protrude through the top of the Sense HAT. If they do, then the height is not correct.
+Trim the remaining wires by 30mm. Then carefully strip about 7-10mm of insulation from the end of each strand. 
 
-![Remove the header from the Sense HAT](images/remove-sense-hat-header.png)
+![Photo of a PIR wire strand with 6mm of insulation stripped from the end](images/PIR_wire_strip.jpg)
 
-+ Finally, use the M2.5 cross-head screws to secure the Sense HAT to the stand-offs below.
+--- /task ---
 
-![All buttons connected](images/buttons-connected.png)
+--- task ---
+
+Cut 3 segment block from an electrical terminal connector strip and insert the bare wire ends of the each strand into seperate blocks. Tigten the screws and make sure the wires are secured fastened. 
+
+![Photo of the PIR cable connected to a 3 segment electrical connector block](images/IPIR_choc.jpg)
+
+--- /task ---
+
+--- task ---
+
+Connect three individual M-F Dupont jumper wires to the other side of the connecgtor block. You should be able to screw down onto the pointy bit of the male end of each wire.
+
+Once you've connected the PIR itself, you complete assembly should look like this:
+
+![Photo of a PIR connected via a connector block to 3 Dupont wires](images/PIR_wires_complete.jpg)
+
+--- /task ---
+
+--- task ---
+
+Insert the PIR into the hole in the front panel of the Flight Case and fix it in place using 2 M2.5 x 3mm screws. You may need to remove any excess melted filament from the holes first.  
+
+![Photo shoping the finished installation of the KEMET PIR ](images/PIR_K_screws.jpg)
+
+Place the PIR cable to the right of the pair of buttons. 
+
+--- /task ---
+
+![Photo shoping the finished installation of the KEMET PIR ](images/PIR_K_done.jpg)
+
+
+
+
+### Option 2: Parallax PIR sensor
+
+This is the domed PIR that is supplied in the Mission Space Lab kits.
+
+--- task ---
+
+Connect three individual M-F Dupont jumper wires to the pins on the back of the PIR PCB. 
+
+![Photo of the rear of the Parallax PIR connected with 3 Dupont wires](images/parallax.jpg)
+
+--- /task ---
+
+--- task ---
+
+Feed the wires through the slot in the top right corner of the Flight Case front panel. 
+
+![Photo of the rear of the Flight Case front panel with three Dupont wires fed through the slot](images/PIR_p_wires.jpg)
+
+--- /task ---
+
+--- task ---
+
+Flip the Flight Case front panel over and seat the PIR in the rectangular slot in the top right corner.  Secure with 2 M2.5 x 6mm screws. You may need to remove any excess melted filament from the holes first.  
+
+![Photo of the rear of the Flight Case front panel with three Dupont wires fed through the slot](images/PIR_K_screws.jpg)
+
+--- /task ---
