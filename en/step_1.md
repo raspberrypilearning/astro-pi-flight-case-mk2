@@ -30,14 +30,17 @@ title: What you will need
 + Raspberry Pi High Quality Camera 
 + Sense HAT
 + 2 push buttons (either xx mm diamter thread or xx mm - see below)
-+ 4 Jumper wires, one end needs to be male.
-+ Kemet or Paralax z PIR (as supplied in official Mission Space lab kits)
-+ Standaoffs: M2.5 x 11mm 
-+ Standaoffs: M2.5 x 10mm 
-+ fastenings
-+ fastenings
-+ 4 xxmm jumper wires, one end female.
++ Kemet or Parallax PIR (as supplied in official Mission Space lab kits)
++ If using the Kemet PIR, you'll also need the associated cable
++ If using the Parallax PIR, you'll need a 3 segment electricla connector block.
++ 4 spacer standaoffs: M2.5 x 11mm 
++ 4 spacer standaoffs: M2.5 x 10mm 
++ 26 pin tall header
++ M2.5 x 3mm screws
++ M2.5 x 6 mm screws
++ 7 short (approx 120mm) jumper wires, one end female.
 + Some xx diamter heatshrink tubing (optional)
++ Sense HAT filter film (optional)
 
 If you want to buy the exact buttons used in the Astro Pi flight unit, the details are below. At a price of £11 each, they are expensive — that's because they're designed to survive an enormous number of clicks before wearing out, a feature which is necessary for a five-year space mission.
 

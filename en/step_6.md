@@ -15,7 +15,7 @@ Once you're happy, line the Raspberry Pi up and do a fit check.  Don't insert th
 
 --- task ---
 
-Next, screw the M2.5 11mm stand-offs into each corner of the Pi. With some light finger pressure they will cut their own thread in the support pillar pilot holes.
+Next, screw the M2.5 11mm spacer stand-offs into each corner of the Pi. With some light finger pressure they will cut their own thread in the support pillar pilot holes.
 
 
 ![Photo showing the Raspberry Pi in the bottom case part, with a spacer screwed in to the top left corner mounting hole](images/pi_spacer_corner.jpg)
@@ -40,23 +40,6 @@ You can now insert the camera ribbon cable into the CSI port of the Raspberry Pi
 
 --- /task ---
 
-### Install the tall header
-
---- task ---
-
-Bend a pin which is the second from the end of the 23-pin tall header out by 90 degrees as shown below. This will enable you to connect the PIR to 5v. 
-
-![Photo showing the tall header with a pin bent at 90 degrees](images/hedaer_bent_pin.jpg)
---- /task ---
-
---- task ---
-
-Add the extended 23-pin header to the Raspberry Pi GPIO pins, at the end away from the USB ports. The bent pin should be at the end furthest away from the USB ports, facing outwards into the case. 
-
-![Photo showing the tall header with a pin bent at 90 degrees attached to the Raspberry Pi](images/header_in_pi.jpg)
-
-
---- /task ---
 
 ### Install stand-offs for the Sense HAT
 
@@ -65,3 +48,13 @@ The Astro Pi Flight Units onboard the ISS have another custom circuit board in b
 ![3d cutaway diagram of a Flight Unit, showing the mezzanine board](images/3d_cutaway_mezz.png)
 
 
+Instead you can use another level of spacers to support the Sense HAT at the correcet height.
+
+--- task ---
+
+Add an M2.5 x 10mm spacer to each of the 11mm spacers already installed 
+
+![Photo showing the stack of two spacers](images/double_header.jpg)
+
+
+--- /task ---

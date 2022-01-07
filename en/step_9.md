@@ -44,7 +44,7 @@ Do the same thing with the Ground and signal wires from the PIR.
 
 ![Photo of two case halves with button and two PIR wires connected (KEMET PIR)](images/two_cases_all.jpg)
 
-![Photo of two case halves with button wires connected (Parallax PIR)](images/two_cases_all_p.jpg)
+![Photo of two case halves with button wires connected (Parallax PIR)](images/two_cases_both_p.jpg)
 
 --- /task ---
 
