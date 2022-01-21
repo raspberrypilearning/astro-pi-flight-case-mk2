@@ -84,6 +84,14 @@ Use heatshrink tubing to protect the contacts in the same way.
 
 --- /task ---
 
+--- task ---
+
+One you have soldered all the button wires, use a heat gun to shrink the heat-shrink tubing, making sue any loose strands of wire are tucked under the tubing and not able to create a short circuit between the terminals. 
+
+![Photo showing a heat gun being used on the heat-shrink tubing. ](images/heatgun.jpg)
+
+--- /task ---
+
 ### Install the buttons into the front panel
 
 Most buttons suitable of the Flight Unit will have a locking nut that holds them in place. 
@@ -93,7 +101,7 @@ The description below is for the APEM buttons so should be similar for most othe
 
 --- task ---
 
-Take a button, then unscrew and remove all the nuts and washers. The picture below shows the fastenings next to numbers which will be used to identify each one in the stesp below. 
+Take a button, then unscrew and remove all the nuts and washers. The picture below shows the fastenings next to numbers which will be used to identify each one in the steps below. 
 
 ![Photo showing the fastenings for the APEM buuton, numbers 1 to 4 ](images/button_fastenings.jpg)
 
@@ -118,5 +126,5 @@ Slide the button through the hole in the front panel. Secure it with the circula
 
 --- task ---
 
-Repeat the stesp above with the second button. 
+Repeat the steps above with the second button. 
 --- /task ---

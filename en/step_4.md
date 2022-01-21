@@ -75,11 +75,13 @@ Finally, tackle the scaffold pieces on the corners. You may need a pair of small
 
 If you've printed this part with a raft, you should be able to separate the raft from the base and carefully peel it away so that it also takes the scaffolding with it.  Do this very carefully to prevent the individual fins of the heatsink from breaking away. If you do accidentally break one off, it is normally possible to re-attach with superglue, rather than re-printing the whole panel. 
 
+![Photo of the blue 3D printed base part, showing the raft after it has been removed](images/base_scaff_peel.jpg)
+
 --- /task ---
 
 If you didn't use a raft, then you will need to peel away the scaffolding in sections.
 
-![Photo of the blue 3D printed base part, showing the raft after it has been removed](images/base_scaff_peel.jpg)
+
 
 --- task ---
 
@@ -89,7 +91,7 @@ The base scaffolding should come away easily if you remove it it sections. Befor
 
 You can also use a narrow flat screwdriver as aa level to free the scaffold from the case itself. It should require little force and be careful not to snap off any of the fins.
 
-![Photo of the blue 3D printed base part, showing a screwdriver blade being used to lever the scaffolding from the edge](images/scaffold-screwdriver)
+![Photo of the blue 3D printed base part, showing a screwdriver blade being used to lever the scaffolding from the edge](images/scaffold-screwdriver.jpg)
 --- /task ---
 
 --- task ---
@@ -144,7 +146,7 @@ If you used a raft, the scaffolding should come away easily if you peel off the 
 --- task ---
 Before proceeding, put all the pieces together to check that they fit correctly. The lipped edge between the base and top pieces is of most concern to you here. The HQC camera mount needs to fit snugly into the base.
 
-![Fit the case together](images/fit-check.png)
+![Fit the case together](images/fit-check.jpg)
 
 Don't worry about any imperfections or residue from the scaffolding at this stage; you can tidy this up later with sandpaper.
 --- /task ---

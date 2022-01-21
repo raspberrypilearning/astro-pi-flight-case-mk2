@@ -42,6 +42,10 @@ Version 2 :  7 mm button holes:
 
 **Part 4 - Light Sensor window**
 
+The windows on the ISS Flight Units are printed using a transparent resin. This may be difficult to reproduce without a more specialised printer. If You're building a Flight Unit to use with an Astro Pi Mission Space Lab entry kit, we suggest you omit the window so that you can get useful data from the Sense HAT's light sensor. 
+
+If you don't need to use the light sensor, or have an older Sense HAT that doesn't have a light sensor, you could print the window using the same colour filament as the rest of the case, or maybe use a different colour for a custom look. 
+
 * [Light sensor window](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Lid_10mm_Buttons.stl) 
 
 **Part 5 - Joystick cap**

@@ -28,8 +28,6 @@ If you are having trouble screwing in the stand-offs, screw one of the silver M2
 
 --- /task ---
 
-![Photo showing the Raspberry Pi in the bottom case part, with a spacer screwed into each corner mounting hole](images/pi_spacer_corner.jpg)
-
 
 --- task ---
 

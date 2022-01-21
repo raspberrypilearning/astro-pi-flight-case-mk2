@@ -2,13 +2,17 @@
 
 As previously mentioned, the ISS Astro Pis have an additional PCB to provide connection points for the buttons and PIR. As this custom board is not available commercially, you will need a different approach.
 
-Fortunatley the Raspberry Pi Sense HAT only uses GPIO pins from the first 24 on the header. This allows us to use a 26 pin header extneder to mount the Sense HAT, leaving tyhe remaining 16 pins free.
+Fortunately the [Raspberry Pi Sense HAT only uses GPIO pins](https://pinout.xyz/pinout/sense_hat) from the first 24 on the header. This allows us to use a 26 pin header extender to mount the Sense HAT, leaving the remaining 16 pins free.
 
-However, we still need a 3v3 pin for the PIR. Only pin number 1 is actually used by the Sense HAT, so we can use pin number 17.
+However, we still need a 3v3 pin for the PIR. Of the two 3v3 pins on available, only pin number 1 is actually used by the Sense HAT, so we can use pin number 17.
+
+
+![GPIO diagram](images/GPIO-Pinout-Diagram-2.png)
+GPIO-Pinout-Diagram-2.png
 
 --- task ---
 
-Take the 26 pin tall header and carefully use radio pliers to bend the 9th pin on onse side through 90 degrees. 
+Take the 26 pin tall header and carefully use radio pliers to bend the 9th pin on one side through 90 degrees. 
 
 ![Photo of the tall header with a bent pin](images/header_bent_pin.jpg)
 
@@ -25,7 +29,7 @@ Place the top and bottom halves of the Flight Case side by side and connect the 
 | Button B  |  21 | 40 |
 | Button B  |   | 30|
 
-![GPIO diagram](images/buttons_GPIO.png)
+
 
 ![Photo of two case halves with button wires connected (KEMET PIR)](images/two_cases.jpg)
 
@@ -80,7 +84,7 @@ Connect the remaining 3v3 wire from the PIR to the bent pin on the header.
 
 --- task ---
 
-Seat the Sense HAT onto the Raspberry pi, Making sure the orientation is ashown below. Be careful to align both rows of pins with both rows of holes in the header.
+Seat the Sense HAT onto the Raspberry pi, Making sure the orientation is as shown below. Be careful to align both rows of pins with both rows of holes in the header.
 
 ![Photo of a Sense HAT seated on the Raspberry Pi](images/sh_seated.jpg)
 ![Photo of a Sense HAT seated on the Raspberry Pi](images/sh_seated_p.jpg)
@@ -109,7 +113,7 @@ If you're using your own Sd card and an original Sense HAT (without the light se
 
 If the rainbow pattern does not disappear once the Raspberry Pi has finished booting, add the following line to the /boot/config.txt file and then reboot.
 
-dtoverlay=rpi-sense
+`dtoverlay=rpi-sense`
 
 --- /task ---
 

@@ -4,7 +4,7 @@
 
 Potential hazards include:
 
-- Hot surfaces and thermoplastics (print head block and lamp)
+- Hot surfaces and thermoplastics (print head block and bed)
 - Moving parts (printing assembly)
 
 We tried this project on a range of 3D printers including:
@@ -17,7 +17,7 @@ We tried this project on a range of 3D printers including:
 
  We mainly used PLA filament in our prints, but we have also printed test cases using ABS.  There are many different 3D printer models so you should make any necessary adaptations to the instructions in order to get the best results from your particular machine.  
 
-All three parts will need to be printed with support scaffolding as there is no completely flat surface with any orientation. For most printers you don't need to add a raft although this may make it much easier/quicker to remove the scaffolding from the heat sink fins on the Flight Unit base. It will, however increase the print time. 
+All parts except for the camera mount and joystick cap will need to be printed with support scaffolding as there is no completely flat surface with any orientation. For most printers you don't need to add a raft although this may make it much easier/quicker to remove the scaffolding from the heat sink fins on the Flight Unit base. It will, however increase the print time. 
 
 --- task ---
 
@@ -38,7 +38,7 @@ This G-code file can then be printed via the client software, which will load th
 
 ![Screenshot showing an example of the Octoprint web-interface which is displaying the imported Flight Unit base in the gcode viewer](images/octoprint.png)
 
-In order to get a nice finish we recommend you print on a high detail setting; this is usually a number specified in [microns](https://en.wikipedia.org/wiki/Micrometre){:target="_blank"} in the 3D printer software. The lower this number is, the more precise the model will be. Please also be aware that precise prints take longer and, for the models you're going to make, each piece can take up to **eight** hours to complete. Make sure you have enough filament.
+In order to get a nice finish we recommend you print on a high detail setting; this is usually a number specified in [microns](https://en.wikipedia.org/wiki/Micrometre){:target="_blank"} in the 3D printer software. The lower this number is, the more precise the model will be. Please also be aware that precise prints take longer and, for the models you're going to make, each piece can take up to **ten** hours to complete. Make sure you have enough filament.
 
 Having said that, our test cases were also printed using the default "medium quality" settings for the printers and they look fine. 
 
@@ -55,11 +55,13 @@ Whether you're using an application that can work directly from the STL file, or
 
 ![Screenshot showing an example of the Cura slicing software with the camera mount part laying flat and face down ](images/cura_camera.png)
 
+![Screenshot showing an example of the Cura slicing software with the light sensor window laying flat and face down ](images/cura_window.png)
+
 --- /task ---
 
 
 --- task ---
 
-Once you've checked all the various options, start your print job. Remember that some of the parts may take several hours to complete and use a fair ammount of material. So make sure you have enough tioe and fimament available.
+Once you've checked all the various options, start your print job. Remember that some of the parts may take several hours to complete and use a fair amount of material. So make sure you have enough time and filament available.
 
 --- /task ---
