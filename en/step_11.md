@@ -1,52 +1,68 @@
 ## Test the hardware
 
-+ Once you have assembled the Astro Pi, start it up with a monitor, keyboard, and mouse connected.
+--- task ---
 
-If you have the ESA-branded Astro Pi kit, the rainbow pattern on the LED matrix should disappear a few seconds after you turn the Astro Pi on, and the push-buttons should now type letters. You can test this in the terminal by running the test program at the bottom of this section.
+Once you have assembled the Astro Pi, start it up with a monitor, keyboard, and mouse connected.
 
-If you don't have the ESA-branded Astro Pi kit, the rainbow pattern on the LED matrix will remain visible after you turn the Astro Pi on, and the buttons will not work yet.
+--- /task ---
 
-You will need to download some files and change a few configuration settings, so make sure your Astro Pi is online.
+For use on the ISS, we created a program that performs a test of the hardware to make sure everything is working. You download a version of this software to run on your 3D printed Astro Pi to check your wiring.
 
-+ Firstly, download the Device Tree overlay that maps the push-buttons to the corresponding keyboard keys. To do this, open a terminal window and enter these commands:
-
-```bash
-cd /boot/overlays
-sudo wget https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/dtb/astropi-keys.dtbo --no-check-certificate
-```
-
-+ Type `ls` and check that the file `astropi-keys.dtbo` is now showing in the list of files.
-
-+ Next, configure `config.txt` to load this overlay. Open the text file by typing:
+--- task ---
+Download the software and then open a terminal window and enter these commands:
 
 ```bash
-sudo nano /boot/config.txt
+unzip selftest.zip
 ```
 
-+ Go to the bottom of the file and enter the two lines below:
+--- /task ---
+
+--- task ---
+Then run the tests:
 
 ```bash
-dtoverlay=rpi-sense
-dtoverlay=astropi-keys
+cd selftest
+python3 selftest.py --timeout 20
 ```
+A series of tests will begin, some run autonomously whereas others are interactive and require a user to physically manipulate the Astro Pi unit when prompted. If you want longer to complete each test, increase the value supplied as the `timeout1` parameter.
 
-+ Press `Ctrl` + `O`, and then `Enter` to save, followed by `Ctrl` + `X` to quit.
+Initially, some of the LEDs on the matrix light up, indicating the outcomes of the diagnostic tests. Then a series of icons will be displayed to indicate which interactive test is active.
 
-+ Now reboot the Astro Pi.
+First will be the humidity sensor test. 
 
-```bash
-sudo reboot
-```
+![The icon for the interactive humidity test](images/humidity_icon.png)
 
-Now let's download and run a Python test program to check everything is working. The test code uses [Pygame](http://pygame.org/wiki/tutorials){:target="_blank"}, which means you need to do this test on a directly connected monitor. It will not work via remote access.
+When you see this icon in red, blow on the hole to the right of the light sensor window. If the sensor is working (and you've provided sufficiently moist puff), the icon should turn green.
 
-+ Open a terminal window and enter these commands:
+Next is the gyroscope test. 
 
-```bash
-cd ~
-wget https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/test_code/pygame_test.py --no-check-certificate
-chmod +x pygame_test.py
-./pygame_test.py
-```
+![The icon for the interactive gyroscope test](images/gyro_icon.png)
 
-+ Wiggle the joystick and press all push-buttons. If everything is working, the joystick will give a direction indication, and the buttons will show the corresponding letter on the LED matrix. Press `Escape` to exit.
+When you see this icon in red, tilt the Astro Pi Flight Unit towards any of the four directions, in any order, until  all four squares that make up the icon have turned green.
+
+Then there is the accelerometer test. 
+
+![The icon for the interactive accelerometer test](images/acc_icon.png)
+
+When you see this icon in red, shake the Astro Pi Flight Unit until the icon has turned green.
+
+Next up is the motion sensor test. 
+
+![The icon for the interactive motion sensor test](images/motion_icon.png)
+
+When you see this icon in red, wave your hand in front of the Astro Pi Flight Unit until the icon has turned green.
+
+The penultimate test is for the joystick. 
+
+![The icon for the interactive joystick test](images/joystick_icon.png)
+
+When you see this icon in red, move the joystick in any of the four directions, in any order. Then press the joystick (like a button). All elements of the icon should turn green.
+
+The final test is for the two buttons. 
+
+![The icon for the interactive button test](images/button_icon.png)
+
+When you see this icon in red, press buttons A and B, in any order. Both squares of the icon should turn green.
+--- /task ---
+
+If any of the test fail, look at whatever messages are displayed in the Terminal for clues as to what may have gone wrong.  If the motion sensor or buttons test fails, check that you have connected the jumper wires to the correct GPIO pins as described earlier.

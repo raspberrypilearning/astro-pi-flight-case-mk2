@@ -99,9 +99,13 @@ Fix the Sense HAT in place with four M2.5 x 6mm screws.
 
 To check that the Sense HAT is connected correctly, at this stage it is a good idea to insert a bootable SD card into the Raspberry Pi and connect the USB-C power cable.
 
-You should see the Sense HAT display a rainbow pattern for a few seconds. NOTE: if you are using an original Sense HAT, there will be a bright white falsh from the LEDs when power is first applied. 
+If you have an Astro Pi Mission Space Lab kit and you are using an SD card supplied with it,  the rainbow pattern on the LED matrix should disappear a few seconds after you turn the Astro Pi on,
+
+You should see the Sense HAT display a rainbow pattern for a few seconds. 
 
 ![Photo of a Sense HAT displaying the rainbow pattern](images/sh_rainbow.jpg)
+
+If you're using your own Sd card and an original Sense HAT (without the light sensor), there will also be a bright white flash from the LEDs when power is first applied. Also, the rainbow pattern on the LED matrix may remain visible after you turn the Astro Pi on.    
 
 If the rainbow pattern does not disappear once the Raspberry Pi has finished booting, add the following line to the /boot/config.txt file and then reboot.
 

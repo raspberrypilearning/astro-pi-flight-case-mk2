@@ -1,11 +1,17 @@
 ## Remove the scaffolding
 
-In order to keep the model structurally sound while printing, your 3D printer will create what's called scaffolding and rafting to prevent the hot thermoplastics from bending or sagging. Leave the print to cool right down to room temperature before you touch it.
+When the parts have finished printing, try to remove them from the bed of your printer keeping the raft attached. Leave the print to cool right down to room temperature before you touch it.
+
+![Photo of a complete top panel still on the printer bed with its raft attached ](images/on_bed.jpg)
+
+In order to keep the model structurally sound while printing, your 3D printer will create what's called scaffolding and rafting to prevent the hot thermoplastics from bending or sagging. 
+
+![Photo of two grey 3D printed panels side by side ](images/both_panels2.jpg)
 
 ### Flight Unit Front panel
 
 
-If you've printed this part with a raft, you should be able to seperate the raft from the base and carefully peel it away so that it also takes the scafolding with it. 
+If you've printed this part with a raft, you should be able to separate the raft from the base and carefully peel it away so that it also takes the scaffolding with it. 
 
 --- task ---
 
@@ -64,6 +70,16 @@ Finally, tackle the scaffold pieces on the corners. You may need a pair of small
 --- /task ---
 
 ### Flight Unit Base
+
+--- task ---
+
+If you've printed this part with a raft, you should be able to separate the raft from the base and carefully peel it away so that it also takes the scaffolding with it.  Do this very carefully to prevent the individual fins of the heatsink from breaking away. If you do accidentally break one off, it is normally possible to re-attach with superglue, rather than re-printing the whole panel. 
+
+--- /task ---
+
+If you didn't use a raft, then you will need to peel away the scaffolding in sections.
+
+![Photo of the blue 3D printed base part, showing the raft after it has been removed](images/base_scaff_peel.jpg)
 
 --- task ---
 
