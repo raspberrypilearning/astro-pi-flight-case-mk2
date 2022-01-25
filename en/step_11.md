@@ -60,7 +60,7 @@ When you see this icon in red, move the joystick in any of the four directions, 
 
 The final test is for the two buttons. 
 
-![The icon for the interactive button test](images/button_icon.png)
+![The icon for the interactive button test](images/buttons_icon.png)
 
 When you see this icon in red, press buttons A and B, in any order. Both squares of the icon should turn green.
 --- /task ---

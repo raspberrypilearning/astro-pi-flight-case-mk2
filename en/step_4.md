@@ -141,6 +141,17 @@ If you used a raft, the scaffolding should come away easily if you peel off the 
 
 --- /task ---
 
+### Light sensor window
+
+--- task ---
+
+
+The small piece of support material should easily break away from the window. You may need to remove some additional material from the hole. 
+
+![A photo showing a green 3D printed light sensor window along with the scaffolding on the raft that it was printed on](images/ls_window_scaf.JPG)
+
+--- /task ---
+
 ## Do a fit check
 
 --- task ---
