@@ -62,7 +62,7 @@ Slip the cable through the slit in the base. Make sure you have the correct orie
 --- /task ---
 
 --- task ---
-Slot the camera mount into place. It will be a tight fit, so make sure that any excess skaffolding has been removed from the part itself and the cavity in the larger case part into which it sits.
+Slot the camera mount into place. It will be a tight fit, so make sure that any excess scaffolding has been removed from the part itself and the cavity in the larger case part into which it sits.
 
 ![Photo showing the correct orientation of the camera cable](images/camera_mount_in.jpg)
 --- /task ---

@@ -106,7 +106,7 @@ Don't forget to clear the material around the SD card slot; this can be done eas
 Once you find that sections of the scaffold have become severed from the rest and the base, carefully slip them off the fins. You can also use a craft knife to cut the scaffolding into sections for easy removal in stages. 
 --- /task ---
 
-[Photo of the blue 3D printed base part with all but one section of the scaffolding removed](images/scaffold_sections.jpg)
+![Photo of the blue 3D printed base part with all but one section of the scaffolding removed](images/scaffold_sections.jpg)
 
 --- task ---
 Once again, carefully use a craft knife or scalpel to split the sides of the scaffold filling the recess for the HQC.
@@ -148,7 +148,7 @@ If you used a raft, the scaffolding should come away easily if you peel off the 
 
 The small piece of support material should easily break away from the window. You may need to remove some additional material from the hole. 
 
-![A photo showing a green 3D printed light sensor window along with the scaffolding on the raft that it was printed on](images/ls_window_scaf.JPG)
+![A photo showing a green 3D printed light sensor window along with the scaffolding on the raft that it was printed on](images/ls_window_scaf.jpg)
 
 --- /task ---
 
