@@ -9,7 +9,7 @@ Once you have assembled the Astro Pi, start it up with a monitor, keyboard, and 
 For use on the ISS, we created a program that performs a test of the hardware to make sure everything is working. You download a version of this software to run on your 3D printed Astro Pi to check your wiring.
 
 --- task ---
-Download the software and then open a terminal window and enter these commands:
+[Download the software](resources/selftest.zip) and then open a terminal window and enter these commands:
 
 ```bash
 unzip selftest.zip
@@ -65,4 +65,10 @@ The final test is for the two buttons.
 When you see this icon in red, press buttons A and B, in any order. Both squares of the icon should turn green.
 --- /task ---
 
-If any of the test fail, look at whatever messages are displayed in the Terminal for clues as to what may have gone wrong.  If the motion sensor or buttons test fails, check that you have connected the jumper wires to the correct GPIO pins as described earlier.
+Once the program has finished, the overall status will be displayed on the LED matrix.
+
+![The LED matrix showing the results of a selftest ](images/self_test.jpg)
+
+For more details about each test, have a look at the comments for each function in functions.py.
+
+If any of the test fail, look at whatever messages are displayed in the Terminal for clues as to what may have gone wrong.  If the motion sensor or buttons test fails, check that you have connected the jumper wires to the correct GPIO pins as described earlier. If you have chosen different pins for the PIR or buttons, you don't need to adjust your wiring, you can change the pin assignments in the `test_buttons` and `test_motion` functions in the functions.py file. 
