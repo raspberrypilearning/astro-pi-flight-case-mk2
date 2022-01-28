@@ -8,9 +8,11 @@ If you're wanting to build a Flight Case for your Astro Pi Mission Space Lab kit
 
 These means that for the front panel there are 4 different options. make sure you download an print the right one for your project.
 
-[![Creative Commons licence](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
+
 
 Please note that these STL files are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+
+[![Creative Commons licence](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
 
 --- task ---
 
@@ -24,9 +26,13 @@ This is the standard case front panel, like the ones on the ISS. It has a square
 
 Version 1 :  10 mm button holes, for use with the buttons used on the ISS Flight Units:
 
+![AAstro_Pi_Mark_II_upper_kemet_1](images/Astro_Pi_Mark_II_upper_kemet_1.jpg)
+
 * [Astro_Pi_Mark_II_upper_kemet_1](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Heat_Sink.stl) 
 
 Version 2 :  7 mm button holes:
+
+[Astro_Pi_Mark_II_upper_kemet_small_buttons_1](images/Astro_Pi_Mark_II_upper_kemet_small_buttons_1.jpg)
 
 * [Astro_Pi_Mark_II_upper_kemet_small_buttons_1](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Heat_Sink.stl) 
   
@@ -34,17 +40,26 @@ And this is a modified version that has a slot for mounting the larger Parallax 
 
 Version 1 :  10 mm button holes, for use with the buttons used on the ISS Flight Units:
 
+[Astro_Pi_Mark_II_upper_parallax_1](images/Astro_Pi_Mark_II_upper_parallax_1.jpg)
+
 * [Astro_Pi_Mark_II_upper_parallax_1](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Heat_Sink.stl) 
 
 Version 2 :  7 mm button holes:
+
+[Astro_Pi_Mark_II_upper_parallax_small_buttons_1](imagesAstro_Pi_Mark_II_upper_parallax_small_buttons_1.jpg)
 
 * [Astro_Pi_Mark_II_upper_parallax_small_buttons_1](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Heat_Sink.stl) 
   
 **Part 2 - Flight Unit Base**
 
+![Astro_PI_Mark_II_lower_1](images/Astro_PI_Mark_II_lower_1.jpg)
+
+
 * [Astro_PI_Mark_II_lower_1](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Base_Pi1_or_2.stl) 
 
 **Part 3 - HQC sensor mount**
+
+![Astro_PI_Mark_II_camera_1](images/Astro_PI_Mark_II_camera_1.jpg)
 
 * [Astro_Pi_Mark_II_camera_1](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Middle.stl) 
 
@@ -54,14 +69,18 @@ The windows on the ISS Flight Units are printed using a transparent resin. This 
 
 If you don't need to use the light sensor, or have an older Sense HAT that doesn't have a light sensor, you could print the window using the same colour filament as the rest of the case, or maybe use a different colour for a custom look. 
 
+![Astro_PI_Mark_II_window_1](images/Astro_PI_Mark_II_window_1.jpg)
+
 * [Astro_Pi_Mark_II_window_1](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Lid_10mm_Buttons.stl) 
 
 **Part 5 - Joystick cap**
 
-* [Astro_Pi_Mark_II_joystick_cap_1](resources/Astro_Pi_Mark_II _joystick_cap.stl)
+![Astro_PI_Mark_II_joystick_cap_1](images/Astro_PI_Mark_II_joystick_cap_1.jpg)
+
+* [Astro_Pi_Mark_II_joystick_cap_1](resources/Astro_Pi_Mark_II_joystick_cap.stl)
 
 
-Note that this joystick cap may need some slight adjustments due to the nozzle size and layer height of your printer. If you have difficulty with fitting it onto the stump of the Sense HAT joystick then try using a layer height of 0.1mm as opposed to 0.15mm. Because the part is so small, it is also prone to heat warping. The cap was designed using [Tinkercad and you can remix the design] (https://www.tinkercad.com/things/9LQoVurYOeM) to precisely adjust the dimensions so that the cap produced by your printer correctly fits the Sense HAT's joystick rod.
+Note that this joystick cap may need some slight adjustments due to the nozzle size and layer height of your printer. If you have difficulty with fitting it onto the stump of the Sense HAT joystick then try using a layer height of 0.1mm as opposed to 0.15mm. Because the part is so small, it is also prone to heat warping. The cap was designed using [Tinkercad and you can remix the design](https://www.tinkercad.com/things/9LQoVurYOeM) to precisely adjust the dimensions so that the cap produced by your printer correctly fits the Sense HAT's joystick rod.
 
 ![Screenshot showing the joystick cap part rendered on Tinkercad ](images/joystick_tinkercad.png)
 
