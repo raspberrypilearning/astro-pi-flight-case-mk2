@@ -95,6 +95,6 @@ Feed the wires through the slot in the top right corner of the Flight Case front
 
 Flip the Flight Case front panel over and seat the PIR in the rectangular slot in the top right corner.  Secure with 2 M2.5 x 6mm screws. You may need to remove any excess melted filament from the holes first.  
 
-![Photo of the rear of the Flight Case front panel with three Dupont wires fed through the slot](images/PIR_K_screws.jpg)
+![Photo of the rear of the Flight Case front panel with three Dupont wires fed through the slot](images/done_p.jpg)
 
 --- /task ---

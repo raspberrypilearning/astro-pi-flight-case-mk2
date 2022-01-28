@@ -65,10 +65,26 @@ The final test is for the two buttons.
 When you see this icon in red, press buttons A and B, in any order. Both squares of the icon should turn green.
 --- /task ---
 
-Once the program has finished, the overall status will be displayed on the LED matrix.
+Once the program has finished, the overall status will be displayed on the LED matrix. 
+
+A green pixel indicates that the test was successful.
+
+A teal pixel shows that an interactive test was not successfully completed before the specified timeout period expired. 
+
+A red pixel is used to identify a test which failed. 
 
 ![The LED matrix showing the results of a selftest ](images/self_test.jpg)
 
-For more details about each test, have a look at the comments for each function in functions.py.
+| Test  |  Description | 
+|---|---|
+| CPU Temp  | Is the Raspberry PI's CPU temperature within safe levels? | 
+| Voltage | Are the block voltages within a sensible range? | 
+| Throttle  | Has an undervoltage condition ocurred? | 
+| GPIO  |  Are GPIO pins working? | 
+| Camera | Is the camera detected?|
+
+The other tests are related to the Sense HAT sensors, buttons and PIR. 
+
+For more details about each test, have a look at the comments for each function in functions.py, and the Raspberry Pi documentation for the [vcgencmd command](https://www.raspberrypi.com/documentation/computers/os.html#vcgencmd). 
 
 If any of the test fail, look at whatever messages are displayed in the Terminal for clues as to what may have gone wrong.  If the motion sensor or buttons test fails, check that you have connected the jumper wires to the correct GPIO pins as described earlier. If you have chosen different pins for the PIR or buttons, you don't need to adjust your wiring, you can change the pin assignments in the `test_buttons` and `test_motion` functions in the functions.py file. 

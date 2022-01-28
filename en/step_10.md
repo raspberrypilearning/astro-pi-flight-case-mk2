@@ -34,6 +34,6 @@ Install your 3D-printed joystick cap by pressing it onto the Sense HAT joystick.
 
 --- /task ---
 
-Your Astro Pi is almost complete — the last thing to do is to add the colour sensor window. Fit this into the slot and attach with a XX screw.
+Your Astro Pi is almost complete — the last thing to do is to add the colour sensor window. Fit this into the slot and attach with a M2.5 x 6mm screw.
 
 ![A photo of a 3D printed Flight Unit with a green joystick cap and light sensor window](images/ls_window.jpg)
