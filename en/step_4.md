@@ -152,6 +152,16 @@ The small piece of support material should easily break away from the window. Yo
 
 --- /task ---
 
+### Joystick cap
+
+--- task ---
+
+Depending on your printer, you may wish to print this part on a raft. Because it is small, it is prone to warping due to contact with a heated print bed.
+
+![A photo showing an orange 3D printed joystick cap along with the  raft that it was printed on](images/joystickcap.jpg)
+
+--- /task ---
+
 ## Do a fit check
 
 --- task ---

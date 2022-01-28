@@ -4,7 +4,7 @@ The Astro Pi Flight Unit is one of the most sought-after cases in the history of
 
 In this resource, you will learn how to 3D print your own Astro Pi Mark II Flight Unit case and install the Astro Pi hardware inside it. You’ll then have your very own Astro Pi flight unit, identical in almost every way to the new ones which will soon be operational on the International Space Station right.
 
-You don't have to follow every step exactly as it is described in this guide, and you should think about ways to customsie your flight unit. There are often many different ways to tackle projects like this, so if you have a different preferred technique,  or think that something should be done in a different, you should go ahead and try an alternative approach. This is particularly true for the 3D printing part of the project: there are lots of different 3D printers and filaments and you should expect to have to modify some of the steps in order to take these differences into account. 
+You don't have to follow every step exactly as it is described in this guide, which is intended to provide a reliable set of instructions for someone who would like to produce a replica case.  There are often many different ways to tackle projects like this, so if you have another preferred technique,  or think that something should be done in a different way, you should go ahead and try an alternative approach. This is particularly true for the 3D printing part of the project: there are lots of different 3D printers and filaments and you should expect to have to modify some of the steps in order to take these differences into account. 
 
 ### What you will make
 
@@ -41,7 +41,7 @@ title: What you will need
 + M2 X 8mm Full Thread Cap Head Screws (DIN 912) - A4 Stainless Steel
 + 7 short (approx 120mm) jumper wires, one end female.
 + Some 2mm diameter heatshrink tubing
-+ a 90 x 50 mm strip of [Rosco 98 medium grey filter film](https://us.rosco.com/en/products/filters/r98-medium-grey) 
++ A 90 x 50 mm strip of [Rosco 98 medium grey filter film](https://us.rosco.com/en/products/filters/r98-medium-grey) 
 
 If you want to buy the [exact buttons](https://www.mouser.co.uk/datasheet/2/26/pusbutton-switches-serie-10400-1519227.pdf) used in the Astro Pi flight unit, the details are below. they are expensive — that's because they're designed to survive an enormous number of clicks before wearing out, a feature which is necessary for a five-year space mission.
 
@@ -63,7 +63,8 @@ You’re also going to need the following tools:
 + Small pair of pliers
 + Craft knife or scalpel
 + Sandpaper
-+ Tape
++ Scissors
++ Sticky tape
 + Wire strippers
 + Wire cutters
 + Soldering iron and solder. If you've never soldered before, have a look at [this video](https://www.raspberrypi.com/news/getting-started-soldering/) for some tips. 
@@ -75,6 +76,7 @@ You’re also going to need the following tools:
 
 ### Downloads
 
++ [Self test software](resources/selftest.zip)
 
 --- /collapse ---
 
@@ -83,9 +85,8 @@ You’re also going to need the following tools:
 title: What you will learn
 ---
 
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
++ 3D Printing techniques for irregular shapes
++ Using GPIO pins to connect electronics to the Raspberry Pi computer
 
 --- /collapse ---
 

@@ -50,9 +50,13 @@ If you don't need to use the light sensor, or have an older Sense HAT that doesn
 
 **Part 5 - Joystick cap**
 
-Note that this joystick cap may need some slight adjustments due to the nozzle size and layer height of your printer. If you have difficulty with fitting it onto the stump of the Sense HAT joystick then try using a layer height of 0.1mm as opposed to 0.15mm.
+* [Joystick](resources/Astro_Pi_Mark_II _joystick_cap.stl)
 
-* [Joystick](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Joystick.stl)
+
+Note that this joystick cap may need some slight adjustments due to the nozzle size and layer height of your printer. If you have difficulty with fitting it onto the stump of the Sense HAT joystick then try using a layer height of 0.1mm as opposed to 0.15mm. Because the part is so small, it is also prone to heat warping. The cap was designed using [Tinkercad and you can remix the design] (https://www.tinkercad.com/things/9LQoVurYOeM) to precisely adjust the dimensions so that the cap produced by your printer correctly fits the Sense HAT's joystick rod.
+
+![Screenshot showing the joystick cap part rendered on Tinkercad ](images/joystick_tinkercad.png)
+
 
 
 
