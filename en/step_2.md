@@ -32,7 +32,7 @@ Version 1 :  10 mm button holes, for use with the buttons used on the ISS Flight
 
 Version 2 :  7 mm button holes:
 
-[Astro_Pi_Mark_II_upper_kemet_small_buttons_1](images/Astro_Pi_Mark_II_upper_kemet_small_buttons_1.jpg)
+![Astro_Pi_Mark_II_upper_kemet_small_buttons_1](images/Astro_Pi_Mark_II_upper_kemet_small_buttons_1.jpg)
 
 * [Astro_Pi_Mark_II_upper_kemet_small_buttons_1](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Heat_Sink.stl) 
   
@@ -40,13 +40,13 @@ And this is a modified version that has a slot for mounting the larger Parallax 
 
 Version 1 :  10 mm button holes, for use with the buttons used on the ISS Flight Units:
 
-[Astro_Pi_Mark_II_upper_parallax_1](images/Astro_Pi_Mark_II_upper_parallax_1.jpg)
+![Astro_Pi_Mark_II_upper_parallax_1](images/Astro_Pi_Mark_II_upper_parallax_1.jpg)
 
 * [Astro_Pi_Mark_II_upper_parallax_1](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Heat_Sink.stl) 
 
 Version 2 :  7 mm button holes:
 
-[Astro_Pi_Mark_II_upper_parallax_small_buttons_1](imagesAstro_Pi_Mark_II_upper_parallax_small_buttons_1.jpg)
+![Astro_Pi_Mark_II_upper_parallax_small_buttons_1](imagesAstro_Pi_Mark_II_upper_parallax_small_buttons_1.jpg)
 
 * [Astro_Pi_Mark_II_upper_parallax_small_buttons_1](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Heat_Sink.stl) 
   
