@@ -69,7 +69,7 @@ The windows on the ISS Flight Units are printed using a transparent resin. This 
 
 If you don't need to use the light sensor, or have an older Sense HAT that doesn't have a light sensor, you could print the window using the same colour filament as the rest of the case, or maybe use a different colour for a custom look. 
 
-![Astro_PI_Mark_II_window_1](images/Astro_PI_Mark_II_window_1.jpg)
+![Astro_PI_Mark_II_window_1](images/Astro_Pi_Mark_II_window_1.jpg)
 
 [Astro_Pi_Mark_II_window_1](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Lid_10mm_Buttons.stl) 
 
@@ -85,5 +85,14 @@ Note that this joystick cap may need some slight adjustments due to the nozzle s
 ![Screenshot showing the joystick cap part rendered on Tinkercad ](images/joystick_tinkercad.png)
 
 
+**Part 6 - Legs**
 
+In order to protect the lens and any window surface against which the Astro Pi may be placed onboard the ISS, the Flight Unit has 4 removable titanium legs with plastic balls on the end. 
 
+![Astro_PI_Mark_II_leg](images/Astro_PI_Mark_II_leg.jpg)
+
+[Astro_Pi_Mark_II_leg](resources/Astro_Pi_Mark_II_leg.stl)
+
+This part is also available for [tweaking and remixing on Tinkercad](https://www.tinkercad.com/things/flDuNtFK9Zh)
+
+![Screenshot showing the leg part rendered on Tinkercad ](images/legs_tinkercad.png)
