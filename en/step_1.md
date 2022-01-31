@@ -1,8 +1,8 @@
 ## Introduction
 
-The Astro Pi Flight Unit is one of the most sought-after cases in the history of the Raspberry Pi. The original Mark I hardware Flight Units have been in operation on the ISS since 2015. In 2021, new, upgraded Astro Pis were sent as replacements. With the inclusion of new sensors and the Raspberry Pi High Quality Camera, a new Flight Unit design was required. 
+The Astro Pi Flight Unit is one of the most sought-after cases in the history of the Raspberry Pi. The original Mark I hardware Flight Units have been in operation on the ISS since 2015. In 2021, new, upgraded Astro Pis were sent as replacements. With the inclusion of a more powerful,Raspberry Pi, new sensors and the Raspberry Pi High Quality Camera, a new Flight Unit design was required. 
 
-In this resource, you will learn how to 3D print your own Astro Pi Mark II Flight Unit case and install the Astro Pi hardware inside it. You’ll then have your very own Astro Pi flight unit, identical in almost every way to the new ones which will soon be operational on the International Space Station right.
+In this resource, you will learn how to 3D print your own Astro Pi Mark II Flight Unit case and install the Astro Pi hardware inside it. You’ll then have your very own Astro Pi flight unit, identical in almost every way to the new ones which are now operational on the International Space Station.
 
 You don't have to follow every step exactly as it is described in this guide, which is intended to provide a reliable set of instructions for someone who would like to produce a replica case.  There are often many different ways to tackle projects like this, so if you have another preferred technique,  or think that something should be done in a different way, you should go ahead and try an alternative approach. This is particularly true for the 3D printing part of the project: there are lots of different 3D printers and filaments and you should expect to have to modify some of the steps in order to take these differences into account. 
 

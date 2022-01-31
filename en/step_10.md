@@ -4,7 +4,7 @@ Once you're happy that the internals of the case are complete, you can proceed t
 
 --- task ---
 
-Cut a strip if the grey filter material 45 x 90 mm and fold it in half. Use two small pieces of tape to attach it to the inside of the top panel, over the LED matrix window.
+Cut a strip of the grey Rosco filter material 45 x 90 mm and fold it in half. Use two small pieces of tape to attach it to the inside of the top panel, over the LED matrix window. Make sure none of the tape is visible from the outside.
 
 ![Photo showing the LED matrix filter held in place with two small pieces of tape](images/sunglasses.jpg)
 
