@@ -166,9 +166,13 @@ Depending on your printer, you may wish to print this part on a raft. Because it
 
 --- task ---
 
-Because this part lacks any flat surfaces, it will need to be printed on a support. This should easily peel away. You may need to use sand paper to smooth the curved surfaces of these legs. 
+Because this part lacks any flat surfaces, it will need to be printed on a support. 
 
-![A photo showing a grey leg and the scaffold support that it was printed on](images/joystickcap.jpg)
+![A photo showing a grey leg and the scaffold support that it was printed on](images/jleg_scaff.jpg)
+
+This should easily peel away. You may need to use sand paper to smooth the curved surfaces of these legs. 
+
+![A photo showing a grey leg and the scaffold being peeled away with pliers](images/jleg_peel.jpg)
 
 --- /task ---
 
