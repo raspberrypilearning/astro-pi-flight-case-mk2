@@ -59,7 +59,7 @@ Version 2 :  7 mm button holes:
 
 **Part 3 - HQC sensor mount**
 
-![Astro_PI_Mark_II_camera_1](images/Astro_PI_Mark_II_camera_1.jpg)
+![Astro_PI_Mark_II_camera_1](images/Astro_Pi_Mark_II_camera_1.jpg)
 
 [Astro_Pi_Mark_II_camera_1](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Middle.stl) 
 
@@ -75,7 +75,7 @@ If you don't need to use the light sensor, or have an older Sense HAT that doesn
 
 **Part 5 - Joystick cap**
 
-![Astro_PI_Mark_II_joystick_cap_1](images/Astro_PI_Mark_II_joystick_cap_1.jpg)
+![Astro_PI_Mark_II_joystick_cap_1](images/Astro_Pi_Mark_II_joystick_cap_1.jpg)
 
 [Astro_Pi_Mark_II_joystick_cap_1](resources/Astro_Pi_Mark_II_joystick_cap.stl)
 
@@ -89,7 +89,7 @@ Note that this joystick cap may need some slight adjustments due to the nozzle s
 
 In order to protect the lens and any window surface against which the Astro Pi may be placed onboard the ISS, the Flight Unit has 4 removable titanium legs with plastic balls on the end. 
 
-![Astro_PI_Mark_II_leg](images/Astro_PI_Mark_II_leg.jpg)
+![Astro_PI_Mark_II_leg](images/Astro_Pi_Mark_II_leg.jpg)
 
 [Astro_Pi_Mark_II_leg](resources/Astro_Pi_Mark_II_leg.stl)
 
