@@ -127,4 +127,6 @@ Slide the button through the hole in the front panel. Secure it with the circula
 --- task ---
 
 Repeat the steps above with the second button. 
+
+![Photo showing a smaller button attached to the Flight Case front panel](images/small_buttons.jpg)
 --- /task ---
