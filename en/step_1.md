@@ -4,20 +4,17 @@ The Astro Pi Flight Unit is one of the most sought-after cases in the history of
 
 In this resource, you will learn how to 3D print your own Astro Pi Mark II Flight Unit case and install the Astro Pi hardware inside it. You’ll then have your very own Astro Pi flight unit, identical in almost every way to the new ones which are now operational on the International Space Station.
 
-You don't have to follow every step exactly as it is described in this guide, which is intended to provide a reliable set of instructions for someone who would like to produce a replica case.  There are often many different ways to tackle projects like this, so if you have another preferred technique,  or think that something should be done in a different way, you should go ahead and try an alternative approach. This is particularly true for the 3D printing part of the project: there are lots of different 3D printers and filaments and you should expect to have to modify some of the steps in order to take these differences into account. 
+You don't have to follow every step exactly as it is described in this guide, which is intended to provide a reliable set of instructions for someone who would like to produce a replica case.  There are often many different ways to tackle projects like this, so if you have another preferred technique,  or think that something should be done in a different way, you should go ahead and try an alternative approach. This is particularly true for the 3D printing part of the project: there are lots of different 3D printers and filaments and you should expect to have to modify some of the steps in order to take these differences into account.  Please note that this is a complex project and that you should expect to have to tweak your  process for best results. Be prepared for print jobs that don’t produce the best possible parts first time. 
 
 ### What you will make
 
 --- no-print ---
 Here are some examples of how your finished 3D-printed Astro Pi flight cases might look:
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
+![Complete project](images/FU_slide.gif)
 
 --- print-only ---
-![Complete project](images/showcase_static.png)
+![Complete project](images/complete.jpg)
 --- /print-only ---
 
 --- collapse ---
