@@ -13,6 +13,8 @@ Here are some examples of how your finished 3D-printed Astro Pi flight cases mig
 
 ![Complete project](images/FU_slide.gif)
 
+--- /no-print ---
+
 --- print-only ---
 ![Complete project](images/complete.jpg)
 --- /print-only ---
