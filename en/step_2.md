@@ -1,12 +1,12 @@
 ## Get the 3D files
 
-The 3D files are in [STL](https://en.wikipedia.org/wiki/STL_%28file_format%29){:target="_blank"} format, which is widely used in 3D printing all over the world.  Import using metric millimetres (mm), and no scale adjustments will be required.
+The 3D files are in [STL](https://en.wikipedia.org/wiki/STL_%28file_format%29){:target="_blank"} format, which is widely used in 3D printing all over the world. Import using metric millimetres (mm), and no scale adjustments will be required.
 
 If you're looking to reproduce an authentic copy of the Astro Pi Flight Cases, you'll be using one of the Kemet PIR sensors that is included on the ISS devices.
 
-If you're wanting to build a Flight Case for your Astro Pi Mission Space Lab kit, then you may wish to use the modified STL files that have been produced to allow you to easily fit the Parallax PIR  sensor (which is supplied in the kit) to the front panel. 
+If you're wanting to build a Flight Case for your Astro Pi Mission Space Lab kit, then you may wish to use the modified STL files that have been produced to allow you to easily fit the Parallax PIR sensor (which is supplied in the kit) to the front panel. 
 
-These means that for the front panel there are 4 different options. make sure you download an print the right one for your project.
+This means that for the front panel there are four different options. Make sure you download and print the right one for your project.
 
 
 
@@ -20,50 +20,50 @@ Download each of these files and save them to a folder on your computer:
 
 --- /task ---
 
-**Part 1 - Flight Unit front panel**
+**Part 1: Flight Unit front panel**
 
-This is the standard case front panel, like the ones on the ISS. It has a square hole in the top right for the Kemet PIR sensor.
+This is the standard case front panel, like the ones on the ISS. It has a square hole in the top-right corner **for the Kemet PIR sensor**.
 
-Version 1 :  10 mm button holes, for use with the buttons used on the ISS Flight Units:
+Version 1:  10mm button holes, for use with the buttons used on the ISS Flight Units
 
-![AAstro_Pi_Mark_II_upper_kemet_1](images/Astro_Pi_Mark_II_upper_kemet_1.jpg)
+![Astro_Pi_Mark_II_upper_kemet_1](images/Astro_Pi_Mark_II_upper_kemet_1.jpg)
 
 [Astro_Pi_Mark_II_upper_kemet_1](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Heat_Sink.stl) 
 
-Version 2 :  7 mm button holes:
+Version 2:  7mm button holes
 
 ![Astro_Pi_Mark_II_upper_kemet_small_buttons_1](images/Astro_Pi_Mark_II_upper_kemet_small_buttons_1.jpg)
 
 [Astro_Pi_Mark_II_upper_kemet_small_buttons_1](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Heat_Sink.stl) 
   
-And this is a modified version that has a slot for mounting the larger Parallax PIR that is supplied in the official Astro Pi Mission Space lab entrant kits.
+These are modified versions that have a slot for mounting the larger **Parallax PIR sensor** that is supplied in the official Astro Pi Mission Space Lab entrant kits.
 
-Version 1 :  10 mm button holes, for use with the buttons used on the ISS Flight Units:
+Version 3:  10mm button holes, for use with the buttons used on the ISS Flight Units
 
 ![Astro_Pi_Mark_II_upper_parallax_1](images/Astro_Pi_Mark_II_upper_parallax_1.jpg)
 
 [Astro_Pi_Mark_II_upper_parallax_1](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Heat_Sink.stl) 
 
-Version 2 :  7 mm button holes:
+Version 4:  7mm button holes
 
 ![Astro_Pi_Mark_II_upper_parallax_small_buttons_1](images/Astro_Pi_Mark_II_upper_parallax_small_buttons_1.jpg)
 
 [Astro_Pi_Mark_II_upper_parallax_small_buttons_1](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Heat_Sink.stl) 
   
-**Part 2 - Flight Unit Base**
+**Part 2: Flight Unit base**
 
 ![Astro_PI_Mark_II_lower_1](images/Astro_PI_Mark_II_lower_1.jpg)
 
 
 [Astro_PI_Mark_II_lower_1](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Base_Pi1_or_2.stl) 
 
-**Part 3 - HQC sensor mount**
+**Part 3: High-Quality Camera sensor mount**
 
 ![Astro_PI_Mark_II_camera_1](images/Astro_Pi_Mark_II_camera_1.jpg)
 
 [Astro_Pi_Mark_II_camera_1](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Middle.stl) 
 
-**Part 4 - Light Sensor window**
+**Part 4: Light sensor window**
 
 The windows on the ISS Flight Units are printed using a transparent resin. This may be difficult to reproduce without a more specialised printer. If You're building a Flight Unit to use with an Astro Pi Mission Space Lab entry kit, we suggest you omit the window so that you can get useful data from the Sense HAT's light sensor. 
 
@@ -73,26 +73,26 @@ If you don't need to use the light sensor, or have an older Sense HAT that doesn
 
 [Astro_Pi_Mark_II_window_1](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Lid_10mm_Buttons.stl) 
 
-**Part 5 - Joystick cap**
+**Part 5: Joystick cap**
 
 ![Astro_PI_Mark_II_joystick_cap_1](images/Astro_Pi_Mark_II_joystick_cap_1.jpg)
 
 [Astro_Pi_Mark_II_joystick_cap_1](resources/Astro_Pi_Mark_II_joystick_cap.stl)
 
 
-Note that this joystick cap may need some slight adjustments due to the nozzle size and layer height of your printer. If you have difficulty with fitting it onto the stump of the Sense HAT joystick then try using a layer height of 0.1mm as opposed to 0.15mm. Because the part is so small, it is also prone to heat warping. The cap was designed using [Tinkercad and you can remix the design](https://www.tinkercad.com/things/9LQoVurYOeM) to precisely adjust the dimensions so that the cap produced by your printer correctly fits the Sense HAT's joystick rod.
+Note that this joystick cap may need some slight adjustments due to the nozzle size and layer height of your printer. If you have difficulty with fitting it onto the stump of the Sense HAT joystick, then try using a layer height of 0.1mm as opposed to 0.15mm. Because the part is so small, it is also prone to heat warping. The cap was designed using [Tinkercad and you can remix the design](https://www.tinkercad.com/things/9LQoVurYOeM) to precisely adjust the dimensions so that the cap produced by your printer correctly fits the Sense HAT's joystick rod.
 
-![Screenshot showing the joystick cap part rendered on Tinkercad ](images/joystick_tinkercad.png)
+![Screenshot showing the joystick cap part rendered with Tinkercad.](images/joystick_tinkercad.png)
 
 
-**Part 6 - Legs**
+**Part 6: Legs**
 
-In order to protect the lens and any window surface against which the Astro Pi may be placed onboard the ISS, the Flight Unit has 4 removable titanium legs with plastic balls on the end. 
+To protect the lens and any window surface against which the Astro Pi may be placed onboard the ISS, the Flight Unit has four removable titanium legs with plastic balls on the end. 
 
 ![Astro_PI_Mark_II_leg](images/Astro_Pi_Mark_II_leg.jpg)
 
 [Astro_Pi_Mark_II_leg](resources/Astro_Pi_Mark_II_leg.stl)
 
-This part is also available for [tweaking and remixing on Tinkercad](https://www.tinkercad.com/things/flDuNtFK9Zh)
+This part is also available for [tweaking and remixing on Tinkercad](https://www.tinkercad.com/things/flDuNtFK9Zh).
 
-![Screenshot showing the leg part rendered on Tinkercad ](images/legs_tinkercad.png)
+![Screenshot showing the leg part rendered on Tinkercad.](images/legs_tinkercad.png)
