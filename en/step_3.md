@@ -17,11 +17,11 @@ We tried this project on a range of 3D printers including:
 
 We mainly used PLA filament in our prints, but we have also printed test cases using ABS.  There are many different 3D printer models, so you should make any necessary adaptations to the instructions in order to get the best results from your particular machine.  
 
-All parts except for the joystick cap will need to be printed with support scaffolding as there is no completely flat surface with any orientation. For most printers, you may also wish to add a raft as this may make it much easier and quicker to remove the scaffolding, especially from the heat sink fins on the Flight Unit base. It also prevents heat warping and can be useful for the joystick and leg parts. It will, however, increase the print time. 
+All parts except for the joystick cap will need to be printed with support scaffolding as there is no completely flat surface with any orientation. For most printers, you may also wish to add a raft as this may make it much easier and quicker to remove the scaffolding, especially from the heat sink fins on the Flight Case base. It also prevents heat warping and can be useful for the joystick and leg parts. It will, however, increase the print time. 
 
 --- task ---
 
-The STL files have been generated from the original CAD designs used to make the Mark II aluminium Flight Unit cases on the International Space Station. 
+The STL files have been generated from the original CAD designs used to make the Mark II aluminium Flight Cases on the International Space Station. 
 
 Depending on your printer and how you use it, you may be able to load these files into a software application that can directly control the hardware and will manage the entire process for you. In the image below, you can see the STL file for the camera mount loaded directly into the Cel Robox application.
 
