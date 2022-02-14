@@ -1,6 +1,6 @@
 ## Connect internal wiring to the Raspberry Pi
 
-As previously mentioned, the ISS Astro Pis have an additional PCB to provide connection points for the buttons and PIR. As this custom board is not available commercially, you will need a different approach.
+As previously mentioned, the ISS Astro Pis have an additional PCB to provide connection points for the buttons and PIR sensor. As this custom board is not available commercially, you will need a different approach.
 
 Fortunately, the [Raspberry Pi Sense HAT only uses GPIO pins](https://pinout.xyz/pinout/sense_hat) from the first 24 on the header. This allows us to use a 26 pin header extender to mount the Sense HAT, leaving the remaining 16 pins free.
 
@@ -20,7 +20,7 @@ Take the 26-pin tall header and carefully use radio pliers to bend the ninth pin
 
 --- task ---
 
-Place the top and bottom halves of the Flight Case side by side and connect the button wires to the GPIO pins. One button from each wire should go to a ground pin, the other to a numbered GPIO pin. You can use whichever combination you like, but we recommend:
+Place the top and bottom halves of the Flight Case side by side and connect the button wires to the GPIO pins. One wire from each button should go to a ground pin, the other to a numbered GPIO pin. You can use whichever combination you like, but we recommend:
 
 | Wire  |  GPIO pin | Physical pin number
 |---|---|---|
@@ -103,11 +103,13 @@ Fix the Sense HAT in place with four M2.5 × 6mm screws.
 
 To check that the Sense HAT is connected correctly, at this stage it is a good idea to insert a bootable SD card into the Raspberry Pi and connect the USB-C power cable.
 
-If you have an Astro Pi Mission Space Lab kit and you are using the SD card supplied with it, the rainbow pattern on the LED matrix should disappear a few seconds after you turn the Astro Pi on.
+
 
 You should see the Sense HAT display a rainbow pattern for a few seconds. 
 
 ![Photo of a Sense HAT displaying the rainbow pattern.](images/sh_rainbow.jpg)
+
+If you have an Astro Pi Mission Space Lab kit and you are using the SD card supplied with it, the rainbow pattern on the LED matrix should disappear a few seconds after you turn the Astro Pi on.
 
 If you're using your own SD card and an original Sense HAT (without the light sensor), there will also be a bright white flash from the LEDs when power is first applied. Also, the rainbow pattern on the LED matrix may remain visible after you turn the Astro Pi on.    
 
