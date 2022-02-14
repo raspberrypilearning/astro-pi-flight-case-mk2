@@ -8,7 +8,7 @@ To keep the model structurally sound while printing, your 3D printer will create
 
 ![Photo of two grey 3D-printed panels side by side.](images/both_panels2.jpg)
 
-### Flight Unit front panel
+### Flight Case front panel
 
 
 If you've printed this part with a raft, you should be able to separate the raft from the base and carefully peel it away so that it also takes the scaffolding with it. 
@@ -69,7 +69,7 @@ Finally, tackle the scaffold pieces on the corners. You may need a pair of small
 
 --- /task ---
 
-### Flight Unit base
+### Flight Case base
 
 --- task ---
 
