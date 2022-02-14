@@ -11,12 +11,12 @@ You don't have to follow every step exactly as it is described in this guide, wh
 --- no-print ---
 Here are some examples of how your finished 3D-printed Astro Pi Flight Cases might look:
 
-![Complete project.](images/FU_slide.gif)
+![A series of images showing several 3D-printed Flight Cases, with different colours, buttons, and one with legs.](images/FU_slide.gif)
 
 --- /no-print ---
 
 --- print-only ---
-![Complete project.](images/complete.jpg)
+![A photo of the completed Flight Case.](images/complete.jpg)
 --- /print-only ---
 
 --- collapse ---
