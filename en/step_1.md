@@ -1,15 +1,15 @@
 ## Introduction
 
-The Astro Pi Flight Unit is one of the most sought-after cases in the history of the Raspberry Pi. The original Mark I hardware Flight Units have been in operation on the International Space Station (ISS) since 2015. In 2021, new, upgraded Astro Pis were sent as replacements. With the inclusion of a more powerful Raspberry Pi, new sensors, and the Raspberry Pi High-Quality Camera, a new Flight Unit design was required. 
+The Astro Pi Flight Case is one of the most sought-after cases in the history of the Raspberry Pi. The original Mark I hardware Flight Units have been in operation on the International Space Station (ISS) since 2015. In 2021, new, upgraded Astro Pis were sent as replacements. With the inclusion of a more powerful Raspberry Pi, new sensors, and the Raspberry Pi High-Quality Camera, a new Flight Case design was required. 
 
-In this resource, you will learn how to 3D print your own Astro Pi Mark II Flight Unit case and install the Astro Pi hardware inside it. You’ll then have your very own Astro Pi Flight Unit, identical in almost every way to the new ones that are now operational on the ISS.
+In this resource, you will learn how to 3D print your own Astro Pi Mark II Flight Case and install the Astro Pi hardware inside it. You’ll then have your very own Astro Pi Flight Unit, identical in almost every way to the new ones that are now operational on the ISS.
 
 You don't have to follow every step exactly as it is described in this guide, which is intended to provide a reliable set of instructions for someone who would like to produce a replica case. There are often many different ways to tackle projects like this, so if you have another preferred technique, or think that something should be done in a different way, you should go ahead and try an alternative approach. This is particularly true for the 3D printing part of the project: there are lots of different 3D printers and filaments and you should expect to have to modify some of the steps in order to take these differences into account. Please note that this is a complex project and that you should expect to have to tweak your process for best results. Be prepared for print jobs that don’t produce the best possible parts first time. 
 
 ### What you will make
 
 --- no-print ---
-Here are some examples of how your finished 3D-printed Astro Pi flight cases might look:
+Here are some examples of how your finished 3D-printed Astro Pi Flight Cases might look:
 
 ![Complete project.](images/FU_slide.gif)
 
@@ -29,17 +29,17 @@ title: What you will need
 + [Raspberry Pi High-Quality Camera](https://www.raspberrypi.com/products/raspberry-pi-high-quality-camera/) 
 + [Raspberry Pi Sense HAT](https://www.raspberrypi.com/products/sense-hat/)
 + 2 Push buttons (either 10mm diameter thread or 7mm — see below)
-+ [Kemet](https://uk.farnell.com/kemet/ss-430l-w/pir-sensor-5m-37deg-28deg-5-5vdc/dp/3027688) or [Parallax](https://www.parallax.com/product/pir-sensor-with-led-signal/) PIR (as supplied in the official Mission Space Lab kits)
-+ If using the Kemet PIR, you'll also need the [right cable](https://www.digikey.co.uk/en/products/detail/jst-sales-america-inc/A05SR05SR30K152B/6708507)
-+ If using the Parallax PIR, you'll need a three-segment electrical connector block
++ [Kemet](https://uk.farnell.com/kemet/ss-430l-w/pir-sensor-5m-37deg-28deg-5-5vdc/dp/3027688) or [Parallax](https://www.parallax.com/product/pir-sensor-with-led-signal/) PIR sensor (as supplied in the official Mission Space Lab kits)
++ If using the Kemet PIR sensor, you'll also need the [right cable](https://www.digikey.co.uk/en/products/detail/jst-sales-america-inc/A05SR05SR30K152B/6708507)
++ If using the Parallax PIR sensor, you'll need a three-segment electrical connector block
 + M2.5/M2.5 × 11mm × 5mm M/F threaded hexagon spacers – nickel plated brass
 + M2.5/M2.5 × 10mm × 5mm M/F threaded hexagon spacers – nickel plated brass
-+ [26 Pin tall header](https://thepihut.com/products/stacking-header-for-raspberry-pi-2x13-extra-tall)
++ [26-Pin tall header](https://thepihut.com/products/stacking-header-for-raspberry-pi-2x13-extra-tall)
 + M2.5 × 6mm full thread cap head screws (DIN 912) – A2 stainless steel
 + M4 × 12mm full thread cap head screws (DIN 912) – A2 stainless steel
 + M2 × 8mm full thread cap head screws (DIN 912) – A4 stainless steel
 + 7 Short (approx. 120mm) jumper wires, with one end F
-+ Some 2mm diameter heatshrink tubing
++ Some 2mm diameter heat shrink tubing
 + A 90 × 50mm strip of [Rosco 98 medium grey filter film](https://us.rosco.com/en/products/filters/r98-medium-grey) 
 
 If you want to buy the [exact buttons](https://www.mouser.co.uk/datasheet/2/26/pusbutton-switches-serie-10400-1519227.pdf) used in the Astro Pi Flight Unit, the details are below. However, they are expensive — that's because they're designed to survive an enormous number of clicks before wearing out, a feature that is necessary for a five-year space mission.
@@ -84,7 +84,7 @@ You’re also going to need the following tools:
 title: What you will learn
 ---
 
-+ Techniques for 3D printing irregular shapes
++ Techniques to 3D print irregular shapes
 + How to connect electronics to the Raspberry Pi computer using GPIO pins
 
 --- /collapse ---
