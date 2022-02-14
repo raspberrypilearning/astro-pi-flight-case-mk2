@@ -1,12 +1,12 @@
 ## Get the 3D files
 
-The 3D files are in [STL](https://en.wikipedia.org/wiki/STL_%28file_format%29){:target="_blank"} format, which is widely used in 3D printing all over the world. Import using metric millimetres (mm), and no scale adjustments will be required.
+The 3D files are in [STL](https://en.wikipedia.org/wiki/STL_%28file_format%29){:target="_blank"} format, which is widely used in 3D printing all over the world. If you import them using metric millimetres (mm), no scale adjustments will be required.
 
-If you're looking to reproduce an authentic copy of the Astro Pi Flight Cases, you'll be using one of the Kemet PIR sensors that is included on the ISS devices.
+If you want to reproduce an authentic copy of the Astro Pi Flight Cases, you'll want to use one of the Kemet PIR sensors that is included on the ISS devices.
 
-If you're wanting to build a Flight Case for your Astro Pi Mission Space Lab kit, then you may wish to use the modified STL files that have been produced to allow you to easily fit the Parallax PIR sensor (which is supplied in the kit) to the front panel. 
+However, if you're wanting to build a Flight Case for your Astro Pi Mission Space Lab kit, then you may wish to use the modified STL files that have been produced to allow you to easily fit the Parallax PIR sensor (which is supplied in the kit) to the front panel. 
 
-This means that for the front panel there are four different options. Make sure you download and print the right one for your project.
+This means that there are four different options for the front panel: each sensor option has two possible button sizes. Make sure you download and print the right one for your project.
 
 
 
@@ -22,7 +22,7 @@ Download each of these files and save them to a folder on your computer:
 
 **Part 1: Flight Unit front panel**
 
-This is the standard case front panel, like the ones on the ISS. It has a square hole in the top-right corner **for the Kemet PIR sensor**.
+Here is the standard case front panel, like the ones on the ISS. It has a square hole in the top-right corner **for the Kemet PIR sensor**.
 
 Version 1:  10mm button holes, for use with the buttons used on the ISS Flight Units
 
@@ -36,7 +36,7 @@ Version 2:  7mm button holes
 
 [Astro_Pi_Mark_II_upper_kemet_small_buttons_1](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Heat_Sink.stl) 
   
-These are modified versions that have a slot for mounting the larger **Parallax PIR sensor** that is supplied in the official Astro Pi Mission Space Lab entrant kits.
+Here are the modified versions; these have a slot for mounting the larger **Parallax PIR sensor** that is supplied in the official Astro Pi Mission Space Lab entrant kits.
 
 Version 3:  10mm button holes, for use with the buttons used on the ISS Flight Units
 
@@ -65,7 +65,7 @@ Version 4:  7mm button holes
 
 **Part 4: Light sensor window**
 
-The windows on the ISS Flight Units are printed using a transparent resin. This may be difficult to reproduce without a more specialised printer. If You're building a Flight Unit to use with an Astro Pi Mission Space Lab entry kit, we suggest you omit the window so that you can get useful data from the Sense HAT's light sensor. 
+The windows on the ISS Flight Units are printed using a transparent resin. This may be difficult to reproduce without a more specialised printer. If you're building a Flight Unit to use with an Astro Pi Mission Space Lab entry kit, we suggest you omit the window so that you can get useful data from the Sense HAT's light sensor. 
 
 If you don't need to use the light sensor, or have an older Sense HAT that doesn't have a light sensor, you could print the window using the same colour filament as the rest of the case, or maybe use a different colour for a custom look. 
 
