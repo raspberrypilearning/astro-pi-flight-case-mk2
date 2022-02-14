@@ -41,7 +41,7 @@ You can now insert the camera ribbon cable into the CSI port of the Raspberry Pi
 
 ### Install stand-offs for the Sense HAT
 
-The Astro Pi Flight Units onboard the ISS have another custom circuit board in between the Raspberry Pi and Sense HAT; this board holds a real-time clock with backup battery. This mezzanine board also has some pins to allow easy connection to the push-buttons and the PIR. Unfortunately, the board is not mass-produced and available to the public.
+The Astro Pi Flight Units onboard the ISS have another custom circuit board in between the Raspberry Pi and Sense HAT; this board holds a real-time clock with backup battery. This mezzanine board also has some pins to allow easy connection to the push buttons and the PIR sensor. Unfortunately, the board is not mass-produced and so is unavailable to the public.
 
 ![3D cutaway diagram of a Flight Unit, showing the mezzanine board.](images/3d_cutaway_mezz.png)
 
