@@ -40,6 +40,6 @@ Fit the four legs into the holes on the rear panel. You may need to use glue to 
 
 --- /task ---
 
-Your Astro Pi Flight Unit is almost complete — the last thing to do is to add the colour sensor window. Fit this into the slot and attach with a M2.5 × 6mm screw.
+Your Astro Pi Flight Unit is almost complete — the last thing to do is to add the colour sensor window. Fit this into the slot and attach it with a M2.5 × 6mm screw.
 
 ![A photo of a 3D-printed Flight Unit with a green joystick cap and light sensor window.](images/ls_window.jpg)
