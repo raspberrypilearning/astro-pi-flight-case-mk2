@@ -103,7 +103,7 @@ Don't forget to clear the material around the SD card slot; this can be done eas
 --- /task ---
 
 --- task ---
-Once sections of the scaffold are severed from the rest and the base, carefully slip them off the fins. You can also use a craft knife to cut the scaffolding into sections for easy removal in stages. 
+Once you've cut the scaffold into sections and have severed each piece from the rest and from the base, carefully slip the scoffolding off the fins. You can use a craft knife to cut the scaffolding into sections for easy removal in stages. 
 --- /task ---
 
 ![Photo of the blue 3D-printed base part with all but one section of the scaffolding removed.](images/scaffold_sections.jpg)
