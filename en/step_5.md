@@ -25,7 +25,7 @@ Lift up the board and place it face up on a very clean surface. Make sure the se
 
 --- task ---
 
-Slide your 3D-printed camera mount part around the black metal surround from the HQC sensor. Secure it in place by lining up the holes in the bottom lip of the 3D-printed part with the holes for the tripod mount. Attach using two XX screws (note you cannot use the original screws that held the tripod mount in place as they are too long).
+Slide your 3D-printed camera mount part around the black metal surround of the HQC sensor. Secure it in place by lining up the holes in the bottom lip of the 3D-printed part with the holes for the tripod mount. Attach using two XX screws (note you cannot use the original screws that held the tripod mount in place as they are too long).
 
 ![Photo showing the Raspberry Pi HQC being attached to the 3D-printed mount using an allen key.](images/HQC_attach_screw.jpg)
 
