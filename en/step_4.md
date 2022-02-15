@@ -81,35 +81,8 @@ If you've printed this part with a raft, you should be able to separate the raft
 
 If you didn't use a raft, then you will need to peel away the scaffolding in sections.
 
-
-
 --- task ---
-
-The base scaffolding should come away easily if you remove it in sections. Before you start, carefully use a craft knife or scalpel to split the sides of the fins away from the scaffold.  
-
-![Photo of the blue 3D-printed base part, showing a craft knife blade being used to separate the scaffolding from a heat sink fin.](images/scaffold_knife.jpg)
-
-You can also use a narrow flat screwdriver as a lever to free the scaffold from the case itself. It should require little force; be careful not to snap off any of the fins.
-
-![Photo of the blue 3D-printed base part, showing a screwdriver blade being used to lever the scaffolding from the edge.](images/scaffold-screwdriver.jpg)
---- /task ---
-
---- task ---
-
-Don't forget to clear the material around the SD card slot; this can be done easily using a small screwdriver.
-
-![Photo showing a screwdriver blade being used to clear the SD card slot.](images/sd-card-slot.jpg)
-
---- /task ---
-
---- task ---
-Once you've cut the scaffold into sections and have severed each piece from the rest and from the base, carefully slip the scoffolding off the fins. You can use a craft knife to cut the scaffolding into sections for easy removal in stages. 
---- /task ---
-
-![Photo of the blue 3D-printed base part with all but one section of the scaffolding removed.](images/scaffold_sections.jpg)
-
---- task ---
-Once again, carefully use a craft knife or scalpel to split the sides of the scaffold filling the recess for the High-Quality Camera.
+Start with the High-Quality Camera slot:  carefully use a craft knife or scalpel to split the sides of the scaffold filling the recess.
 
 ![A photo showing a craft knife being used to free the blue 3D-printed camera recess scaffolding.](images/camera-scaffold-craft.jpg)
 
@@ -128,6 +101,37 @@ The scaffolding should come away easily if you peel it with your fingers.
 ![A photo showing a hand peeling off the blue 3D-printed camera recess scaffolding.](images/camera-slot-peel.jpg)
 
 --- /task ---
+
+--- task ---
+
+Then clear the material around the SD card slot; this can be done easily using a small screwdriver.
+
+![Photo showing a screwdriver blade being used to clear the SD card slot.](images/sd-card-slot.jpg)
+
+--- /task ---
+
+
+--- task ---
+
+Finally, the base scaffolding should come away easily if you remove it in sections. Before you start, carefully use a craft knife or scalpel to split the sides of the fins away from the scaffold.  
+
+![Photo of the blue 3D-printed base part, showing a craft knife blade being used to separate the scaffolding from a heat sink fin.](images/scaffold_knife.jpg)
+
+You can also use a narrow flat screwdriver as a lever to free the scaffold from the case itself. It should require little force; be careful not to snap off any of the fins.
+
+![Photo of the blue 3D-printed base part, showing a screwdriver blade being used to lever the scaffolding from the edge.](images/scaffold-screwdriver.jpg)
+--- /task ---
+
+
+--- task ---
+Once you've cut the scaffold into sections and have severed each piece from the rest and from the base, carefully slip the scaffolding off the fins. You can use a craft knife to cut the scaffolding into sections for easy removal in stages. 
+--- /task ---
+
+![Photo of the blue 3D-printed base part with all but one section of the scaffolding removed.](images/scaffold_sections.jpg)
+
+
+
+
 
 ### High-Quality Camera mount
 

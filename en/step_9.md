@@ -113,7 +113,7 @@ If you have an Astro Pi Mission Space Lab kit and you are using the SD card supp
 
 If you're using your own SD card and an original Sense HAT (without the light sensor), there will also be a bright white flash from the LEDs when power is first applied. Also, the rainbow pattern on the LED matrix may remain visible after you turn the Astro Pi on.    
 
-If the rainbow pattern does not disappear once the Raspberry Pi has finished booting, add the following line to the /boot/config.txt file and then reboot.
+If the rainbow pattern does not disappear once the Raspberry Pi has finished booting, add the following line to the end of the /boot/config.txt file and then reboot.
 
 `dtoverlay=rpi-sense`
 

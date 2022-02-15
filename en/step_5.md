@@ -13,7 +13,7 @@ Second, remove the tripod mount from the HQC sensor by unscrewing the two bolts 
 --- /task ---
 
 --- task ---
-Next, unscrew the two 1.5mm hex lock keys on the underside of the main circuit board. Be careful not to let the washers roll away. There is a gasket of a slightly sticky material between the housing and PCB, which will require some force to separate.
+Next, unscrew the two 1.5mm hex lock keys on the underside of the main circuit board. Be careful not to let the washers roll away. There is a gasket of a slightly sticky material between the housing and Printed Circuit Board (PCB), which will require some force to separate.
 
 
 Lift up the board and place it face up on a very clean surface. Make sure the sensor (the small square in the middle) does not touch the surface.
@@ -25,7 +25,7 @@ Lift up the board and place it face up on a very clean surface. Make sure the se
 
 --- task ---
 
-Slide your 3D-printed camera mount part around the black metal surround of the HQC sensor. Secure it in place by lining up the holes in the bottom lip of the 3D-printed part with the holes for the tripod mount. Attach using two XX screws (note you cannot use the original screws that held the tripod mount in place as they are too long).
+Slide your 3D-printed camera mount part around the black metal surround of the HQC sensor. Secure it in place by lining up the holes in the bottom lip of the 3D-printed part with the holes for the tripod mount. Attach using two M2 x 5mm screws (note you cannot use the original screws that held the tripod mount in place as they are too long).
 
 ![Photo showing the Raspberry Pi HQC being attached to the 3D-printed mount using an allen key.](images/HQC_attach_screw.jpg)
 
@@ -46,31 +46,33 @@ Screw down the two hex lock keys. As long as the washers have been fitted in the
 
 --- task ---
 
-Now, lift the two tabs on either side of the High-Quality Camera to re-connect the ribbon cable from the camera. Note the blue side of the cable should be facing as shown. 
+Now, lift the two tabs on either side of the High-Quality Camera to re-connect the ribbon cable from the camera. Note the blue side of the cable should be facing upwards, away from the PCB as shown. 
 
-![Photo showing the correct orientation of the camera cable.](images/HQC_cable.jpg)
+![Photo showing the correct orientation of the camera cable inserted into the camera sensor.](images/HQC_cable.jpg)
 
 --- /task ---
 
 
 --- task ---
 
-Slip the cable through the slit in the base. Make sure you have the correct orientation so that the blue side will face the bottom of the case when folded, as shown below.
+Slip the cable through the slit in the base. Make sure you have the correct orientation so that the blue side will face the bottom of the case when folded.
 
-![Photo showing the correct orientation of the camera cable.](images/camera_slide_in.jpg)
+![Photo showing the correct orientation of the camera cable when the sensor and mount are being fitted into the case base.](images/camera_slide_in.jpg)
+
 
 --- /task ---
 
 --- task ---
 Slot the camera mount into place. It will be a tight fit, so make sure that any excess scaffolding has been removed from the part itself and from the cavity in the larger case part in which it sits.
 
-![Photo showing the correct orientation of the camera cable.](images/camera_mount_in.jpg)
+![Photo showing the camera mount fitted into the case base.](images/camera_mount_in.jpg)
+
 --- /task ---
 
 --- task ---
 Fold the ribbon and lay it flat along the inside of the base part. Secure it with a small piece of tape as shown. We have used Kapton tape, but any kind of tape will work fine.
 
-![Photo showing the correct orientation of the camera cable.](images/camera_cable_tape.JPG)
+![Photo showing the folding and taping of the camera cable in the base.](images/camera_cable_tape.JPG)
 --- /task ---
 
 

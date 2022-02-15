@@ -29,7 +29,7 @@ title: What you will need
 + [Raspberry Pi High-Quality Camera](https://www.raspberrypi.com/products/raspberry-pi-high-quality-camera/) 
 + [Raspberry Pi Sense HAT](https://www.raspberrypi.com/products/sense-hat/)
 + 2 Push buttons (either 10mm diameter thread or 7mm — see below)
-+ [Kemet](https://uk.farnell.com/kemet/ss-430l-w/pir-sensor-5m-37deg-28deg-5-5vdc/dp/3027688) or [Parallax](https://www.parallax.com/product/pir-sensor-with-led-signal/) PIR sensor (as supplied in the official Mission Space Lab kits)
++ [Kemet](https://uk.farnell.com/kemet/ss-430l-w/pir-sensor-5m-37deg-28deg-5-5vdc/dp/3027688) or [Parallax](https://www.parallax.com/product/pir-sensor-with-led-signal/) Passive Infrared (PIR) sensor (as supplied in the official Mission Space Lab kits)
 + If using the Kemet PIR sensor, you'll also need the [right cable](https://www.digikey.co.uk/en/products/detail/jst-sales-america-inc/A05SR05SR30K152B/6708507)
 + If using the Parallax PIR sensor, you'll need a three-segment electrical connector block
 + M2.5/M2.5 × 11mm × 5mm M/F threaded hexagon spacers – nickel plated brass
@@ -58,7 +58,7 @@ If you want to use different (cheaper) buttons, then go ahead. We have two diffe
 You’re also going to need the following tools:
 
 + 1.5mm Allen key
-+ XX Allen key
++ 2.5 Allen key
 + Small pair of pliers
 + Craft knife or scalpel
 + Sandpaper

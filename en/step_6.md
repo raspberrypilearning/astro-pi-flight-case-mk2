@@ -31,7 +31,7 @@ If you are having trouble screwing in the stand-offs, screw one of the silver M2
 
 --- task ---
 
-You can now insert the camera ribbon cable into the CSI port of the Raspberry Pi. 
+You can now insert the camera ribbon cable into the CSI (Camera Serial Interface) port of the Raspberry Pi. 
 
 ![Photo showing the Raspberry Pi in the bottom case part, with the camera cable inserted.](images/camera_cable_pi.jpg)
 
