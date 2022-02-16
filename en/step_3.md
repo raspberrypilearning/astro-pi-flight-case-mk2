@@ -15,7 +15,7 @@ We tried this project on a range of 3D printers including:
 
 ![Photo showing a 3D-printed Flight Unit top panel sitting on the bed of a Lulzbot Mini printer.](images/lulzbitmini.JPG)
 
-We mainly used PLA (Polylactic acid) filament in our prints, but we have also printed test cases using ABS (Acrylonitrile butadiene styrene).  There are many different 3D printer models, so you should make any necessary adaptations to the instructions in order to get the best results from your particular machine.  
+We mainly used PLA (polylactic acid) filament in our prints, but we have also printed test cases using ABS (acrylonitrile butadiene styrene).  There are many different 3D printer models, so you should make any necessary adaptations to the instructions in order to get the best results from your particular machine.  
 
 All parts except for the joystick cap will need to be printed with support scaffolding as there is no completely flat surface with any orientation. For most printers, you may also wish to add a raft as this may make it much easier and quicker to remove the scaffolding, especially from the heat sink fins on the Flight Case base. It also prevents heat warping and can be useful for the joystick and leg parts. It will, however, increase the print time. 
 
