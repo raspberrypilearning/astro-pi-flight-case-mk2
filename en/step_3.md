@@ -57,6 +57,8 @@ Whether you're using an application that can work directly from the STL file, or
 
 ![Screenshot showing an example of the Cura slicing software with the light sensor window laying flat and face down.](images/cura_window.png)
 
+![Screenshot showing an example of the Cura slicing software with the leg part laying flat and face down.](images/cura_leg.png)
+
 --- /task ---
 
 
