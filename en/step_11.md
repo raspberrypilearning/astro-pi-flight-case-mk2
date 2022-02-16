@@ -30,37 +30,37 @@ Initially, some of the LEDs on the matrix will light up, indicating the outcomes
 
 First will be the humidity sensor test. 
 
-![The icon for the interactive humidity test: a open central square made up of 8 illuminated LEDs](images/humidity_icon.png)
+![The icon for the interactive humidity test: an open central square made up of 8 illuminated LEDs.](images/humidity_icon.png)
 
 When you see this icon in red, blow on the hole to the right of the light sensor window. If the sensor is working (and you've provided sufficiently moist puff), the icon should turn green.
 
 Next is the gyroscope test. 
 
-![The icon for the interactive gyroscope test: A cross shape made up of 4 squares of 4 illuminated LEDs](images/gyro_icon.png)
+![The icon for the interactive gyroscope test: a cross shape made up of 4 squares of 4 illuminated LEDs.](images/gyro_icon.png)
 
 When you see this icon in red, tilt the Astro Pi Flight Unit towards any of the four directions, in any order, until all four squares that make up the icon have turned green.
 
 Then there is the accelerometer test. 
 
-![The icon for the interactive accelerometer test: two diagonally opposed chevrons each made up of 5 illuminated LEDs ](images/acc_icon.png)
+![The icon for the interactive accelerometer test: two diagonally opposed chevrons each made up of 5 illuminated LEDs.](images/acc_icon.png)
 
 When you see this icon in red, shake the Astro Pi Flight Unit until the icon has turned green.
 
 Next up is the motion sensor test. 
 
-![The icon for the interactive motion sensor test: a small solid square of 4 illuminated LEDs](images/motion_icon.png)
+![The icon for the interactive motion sensor test: a small solid square of 4 illuminated LEDs.](images/motion_icon.png)
 
 When you see this icon in red, wave your hand in front of the Astro Pi Flight Unit until the icon has turned green.
 
 The penultimate test is for the joystick. 
 
-![The icon for the interactive joystick test: 5 squares of 4 illuminated LEDs in a cross shape](images/joystick_icon.png)
+![The icon for the interactive joystick test: 5 squares of 4 illuminated LEDs in a cross shape.](images/joystick_icon.png)
 
 When you see this icon in red, move the joystick in any of the four directions, in any order. Then press the joystick (like a button). All elements of the icon should turn green.
 
 The final test is for the two buttons. 
 
-![The icon for the interactive button test: two side by side squares of 4 illuminated LEDs each](images/buttons_icon.png)
+![The icon for the interactive button test: two side by side squares of 4 illuminated LEDs each.](images/buttons_icon.png)
 
 When you see this icon in red, press buttons A and B, in any order. Both squares of the icon should turn green.
 --- /task ---
@@ -73,7 +73,7 @@ A teal pixel shows that an interactive test was not successfully completed befor
 
 A red pixel is used to identify a test which failed. 
 
-![The LED matrix showing the results of a self-test, with 15 illuminated green LEDs](images/self_test.jpg)
+![The LED matrix showing the results of a self-test, with 15 illuminated green LEDs.](images/self_test.jpg)
 
 | Test  |  Description | 
 |---|---|
