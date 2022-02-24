@@ -32,12 +32,14 @@ title: What you will need
 + [Kemet](https://uk.farnell.com/kemet/ss-430l-w/pir-sensor-5m-37deg-28deg-5-5vdc/dp/3027688) or [Parallax](https://www.parallax.com/product/pir-sensor-with-led-signal/) Passive Infrared (PIR) sensor (as supplied in the official Mission Space Lab kits)
 + If using the Kemet PIR sensor, you'll also need the [right cable](https://www.digikey.co.uk/en/products/detail/jst-sales-america-inc/A05SR05SR30K152B/6708507)
 + If using the Parallax PIR sensor, you'll need a three-segment electrical connector block
-+ M2.5/M2.5 × 11mm × 5mm M/F threaded hexagon spacers – nickel plated brass
-+ M2.5/M2.5 × 10mm × 5mm M/F threaded hexagon spacers – nickel plated brass
++ M2.5/M2.5 × 11mm × 5mm M/F threaded hexagon spacers 
++ M2.5/M2.5 × 10mm × 5mm M/F threaded hexagon spacers 
 + [26-Pin tall header](https://thepihut.com/products/stacking-header-for-raspberry-pi-2x13-extra-tall)
-+ M2.5 × 6mm full thread cap head screws (DIN 912) – A2 stainless steel
-+ M4 × 12mm full thread cap head screws (DIN 912) – A2 stainless steel
-+ M2 × 8mm full thread cap head screws (DIN 912) – A4 stainless steel
++ M2.5 × 6mm full thread cap head screws (DIN 912) 
++ M2 X 16mm cap head screws (DIN 912) 
++ M2 Hexagon Nuts (DIN 934) - Stainless Steel 
++ M4 × 12mm full thread cap head screws (DIN 912)
++ M2 × 8mm full thread cap head screws (DIN 912) 
 + 7 Short (approx. 120mm) jumper wires, with one end F
 + Some 2mm diameter heat shrink tubing
 + A 90 × 50mm strip of [Rosco 98 medium grey filter film](https://us.rosco.com/en/products/filters/r98-medium-grey) 
