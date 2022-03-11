@@ -55,13 +55,13 @@ Version 4:  7mm button holes
 ![Astro_PI_Mark_II_lower_1](images/Astro_PI_Mark_II_lower_1.jpg)
 
 
-[Astro_PI_Mark_II_lower_1](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Base_Pi1_or_2.stl) 
+[Astro_PI_Mark_II_lower_1](resources/Astro_PI_Mark_II_lower_1.STL) 
 
 **Part 3: High-Quality Camera sensor mount**
 
 ![Astro_PI_Mark_II_camera_1](images/Astro_Pi_Mark_II_camera_1.jpg)
 
-[Astro_Pi_Mark_II_camera_1](resources/Astro_PI_Mark_II_lower_1.STL) 
+[Astro_Pi_Mark_II_camera_1](resources/Astro_Pi_Mark_II_camera_1.STL) 
 
 **Part 4: Light sensor window**
 
