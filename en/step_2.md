@@ -28,13 +28,13 @@ Version 1:  10mm button holes, for use with the buttons used on the ISS Flight U
 
 ![Astro_Pi_Mark_II_upper_kemet_1](images/Astro_Pi_Mark_II_upper_kemet_1.jpg)
 
-[Astro_Pi_Mark_II_upper_kemet_1](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Heat_Sink.stl) 
+[Astro_Pi_Mark_II_upper_kemet_1](resources/Astro_Pi_Mark_II_upper_kemet_1.STL) 
 
 Version 2:  7mm button holes
 
 ![Astro_Pi_Mark_II_upper_kemet_small_buttons_1](images/Astro_Pi_Mark_II_upper_kemet_small_buttons_1.jpg)
 
-[Astro_Pi_Mark_II_upper_kemet_small_buttons_1](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Heat_Sink.stl) 
+[Astro_Pi_Mark_II_upper_kemet_small_buttons_1](resources/Astro_Pi_Mark_II_upper_kemet_small_buttons_1.STL) 
   
 Here are the modified versions; these have a slot for mounting the larger **Parallax PIR sensor** that is supplied in the official Astro Pi Mission Space Lab entrant kits.
 
@@ -42,13 +42,13 @@ Version 3:  10mm button holes, for use with the buttons used on the ISS Flight U
 
 ![Astro_Pi_Mark_II_upper_parallax_1](images/Astro_Pi_Mark_II_upper_parallax_1.jpg)
 
-[Astro_Pi_Mark_II_upper_parallax_1](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Heat_Sink.stl) 
+[Astro_Pi_Mark_II_upper_parallax_1](resources/Astro_Pi_Mark_II_upper_parallax_1.STL) 
 
 Version 4:  7mm button holes
 
 ![Astro_Pi_Mark_II_upper_parallax_small_buttons_1](images/Astro_Pi_Mark_II_upper_parallax_small_buttons_1.jpg)
 
-[Astro_Pi_Mark_II_upper_parallax_small_buttons_1](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Heat_Sink.stl) 
+[Astro_Pi_Mark_II_upper_parallax_small_buttons_1](resources/Astro_Pi_Mark_II_upper_parallax_small_buttons_1.STL) 
   
 **Part 2: Flight Unit base**
 
@@ -61,7 +61,7 @@ Version 4:  7mm button holes
 
 ![Astro_PI_Mark_II_camera_1](images/Astro_Pi_Mark_II_camera_1.jpg)
 
-[Astro_Pi_Mark_II_camera_1](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Middle.stl) 
+[Astro_Pi_Mark_II_camera_1](resources/Astro_PI_Mark_II_lower_1.STL) 
 
 **Part 4: Light sensor window**
 
@@ -71,7 +71,7 @@ If you don't need to use the light sensor, or have an older Sense HAT that doesn
 
 ![Astro_PI_Mark_II_window_1](images/Astro_Pi_Mark_II_window_1.jpg)
 
-[Astro_Pi_Mark_II_window_1](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Lid_10mm_Buttons.stl) 
+[Astro_Pi_Mark_II_window_1](resources/Astro_Pi_Mark_II_window_1.STL) 
 
 **Part 5: Joystick cap**
 
