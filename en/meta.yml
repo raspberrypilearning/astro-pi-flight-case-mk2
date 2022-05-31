@@ -1,14 +1,18 @@
+---
 title: 3D-Printed Astro Pi Mark II Flight Case
 hero_image: images/banner.png
-description: Use a 3D printer to create a replica Astro Pi Mark II Flight Case like the ones sent to the ISS in 2021
+description: Use a 3D printer to create a replica Astro Pi Mark II Flight Case like
+  the ones sent to the ISS in 2021
 version: 4
 listed: true
 copyedit: true
-last_tested: "2022-03-10"
+last_tested: '2022-03-10'
 steps:
 - title: Introduction
 - title: Get the 3D files
 - title: Print each part
+  completion:
+  - engaged
 - title: Remove the scaffolding
 - title: Install the camera
 - title: Install the Raspberry Pi
@@ -17,4 +21,6 @@ steps:
 - title: Connect internal wiring to the Raspberry Pi
 - title: Assemble the case
 - title: Test the hardware
-- title: "Challenge: Improve your case"
+  completion:
+  - internal
+- title: 'Challenge: Improve your case'
