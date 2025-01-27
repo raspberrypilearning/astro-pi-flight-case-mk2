@@ -24,3 +24,5 @@ steps:
   completion:
   - internal
 - title: 'Challenge: Improve your case'
+  completion:
+  - external
